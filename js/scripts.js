@@ -145,3 +145,6 @@ function topFunction() {
 	document.body.scrollTop = 0; // for Safari
 	document.documentElement.scrollTop = 0; // for Chrome, Firefox, IE and Opera
 }
+
+//ONLY IN DEVELOP
+//alert("Ultimos cambios: \n Links en iconos de redes sociales \n Se agregaron las tipografías: Vice City Sans y Caviar Dreams");

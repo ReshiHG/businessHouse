@@ -2,6 +2,8 @@
 
 /*****************************************
 Table Of Contents:
+- Variables
+- Custom Fonts
 - General Styles
 - Navigation
 - Header
@@ -32,9 +34,38 @@ Colors:
 - third-color: #002B32
 ******************************************/
 
+/**************************/
+/*      Custom Fonts      */
+/**************************/
+@font-face {
+	font-family: ViceCitySans;
+	src: url(../webfonts/ViceCitySans.otf);
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: CaviarDreams;
+	src: url(../webfonts/CaviarDreams.ttf);
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: CaviarDreams;
+	src: url(../webfonts/Caviar\ Dreams\ Bold.ttf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: CaviarDreams;
+	src: url(../webfonts/CaviarDreams_Italic.ttf);
+	font-style: italic;
+}
+
 
 /**************************/
-/*     General Styles     */
+/*        Variable        */
 /**************************/
 :root{
 	--backgroud: #f7f9fd;
@@ -42,6 +73,12 @@ Colors:
 	--body-text: #53575a;
 	--buttons-icons: #028B89;
 }
+
+
+
+/**************************/
+/*     General Styles     */
+/**************************/
 
 body,
 html {
@@ -51,7 +88,7 @@ html {
 
 body, p {
 	color: var(--body-text); 
-	font: 400 1rem/1.625rem "Open Sans", sans-serif;
+	font: 600 1rem/1.625rem "CaviarDreams", sans-serif;
 }
 
 h1 {
@@ -59,7 +96,7 @@ h1 {
 	font-weight: 600;
 	font-size: 2.5rem;
 	line-height: 3.25rem;
-	font-family: "Poppins"
+	font-family: "ViceCitySans"
 }
 
 h2 {
@@ -67,7 +104,7 @@ h2 {
 	font-weight: 600;
 	font-size: 2rem;
 	line-height: 2.5rem;
-	font-family: "Poppins"
+	font-family: "ViceCitySans"
 }
 
 h3 {
@@ -75,7 +112,7 @@ h3 {
 	font-weight: 600;
 	font-size: 1.75rem;
 	line-height: 2.25rem;
-	font-family: "Poppins"
+	font-family: "ViceCitySans"
 }
 
 h4 {
@@ -83,7 +120,7 @@ h4 {
 	font-weight: 600;
 	font-size: 1.5rem;
 	line-height: 2rem;
-	font-family: "Poppins"
+	font-family: "ViceCitySans"
 }
 
 h5 {
@@ -91,7 +128,7 @@ h5 {
 	font-weight: 600;
 	font-size: 1.25rem;
 	line-height: 1.625rem;
-	font-family: "Poppins"
+	font-family: "ViceCitySans"
 }
 
 h6 {
@@ -99,7 +136,7 @@ h6 {
 	font-weight: 600;
 	font-size: 1rem;
 	line-height: 1.375rem;
-	font-family: "Poppins"
+	font-family: "ViceCitySans"
 }
 
 .p-large {
@@ -328,7 +365,7 @@ a:hover {
 .navbar {
 	background-color: var(--heading-text);
 	font-weight: 600;
-	font-size: 0.875rem;
+	font-size: 1.1rem;
 	line-height: 0.875rem;
 	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.025);
 }
@@ -340,7 +377,7 @@ a:hover {
 
 .navbar .logo-image img {
     /*width: 100px;*/
-	height: 100px;
+	height: 65px;
 }
 
 .navbar .logo-text {
@@ -1302,9 +1339,9 @@ a:hover {
 
 
 	/* Introduction */
-	.cards-1 .card {
+	/*.cards-1 .card {
 		width: 330px;
-	}
+	}*/
 
 	.cards-1 .card:nth-of-type(3n+2) {
 		margin-right: 3.625rem;
