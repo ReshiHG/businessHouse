@@ -147,4 +147,28 @@ function topFunction() {
 }
 
 //ONLY IN DEVELOP
-//alert("Ultimos cambios: \n Links en iconos de redes sociales \n Se agregaron las tipografías: Vice City Sans y Caviar Dreams");
+// alert("Ultimos cambios: \n Links en iconos de redes sociales \n Se agregaron las tipografías: Vice City Sans y Caviar Dreams");
+
+
+/* Form */
+
+const $form = document.querySelector("#contactForm");
+
+$form.addEventListener("submit", handleSubmit);
+
+async function handleSubmit (e){
+	e.preventDefault();
+	const formData = new FormData(this);
+
+	const response = await fetch(this.action, {
+		method: this.method,
+		body: formData,
+		headers: {
+			'Accept':'application/json'
+		}
+	})
+	if (response.ok) {
+		this.reset();
+		alert ("funciono el envio de formulario");
+	}
+}

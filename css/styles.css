@@ -140,13 +140,17 @@ h6 {
 }
 
 .p-large {
-	font-size: 1.125rem;
+	font-size: 1.25rem;
 	line-height: 1.75rem;
 }
 
 .p-small {
 	font-size: 0.875rem;
 	line-height: 1.5rem;
+}
+
+.text-light{
+	color: #efefef;
 }
 
 .testimonial-text {
@@ -562,6 +566,7 @@ a:hover {
 	margin-bottom: 4rem;
 	border: none;
 	border-radius: 6px;
+	padding: 30px;
 }
 
 .cards-1 .card-body {
@@ -1038,6 +1043,74 @@ a:hover {
 	margin-top: 0.125rem;
 	margin-bottom: 0.5rem;
 }
+
+/*********************/
+/*  Misión y visión  */
+/*********************/
+
+.basic-2 .vision{
+	flex-direction: row-reverse;
+}
+
+
+/*********************/
+/*     Experience    */
+/*********************/
+.logos-slider{
+	overflow: hidden;
+	display: inline-block;
+	position: relative;
+	height: 200px;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+@keyframes continuousSlide {
+	from {
+		right: -200px;
+	  }
+	
+	  to {
+		right: 1200px;
+	  }
+}
+
+.logos-slide{
+	position: absolute;
+	right: -200px;
+	height: 200px;
+	width: 200px;
+	animation-direction: initial;
+	animation-iteration-count: infinite;
+	animation-name: continuousSlide;
+	animation-timing-function: linear;
+	animation-duration: 15s;
+}
+  
+#ls-part-1{
+}
+
+#ls-part-2{
+	animation-delay: 2.5s;
+}
+
+#ls-part-3{
+	animation-delay: 5s;
+}
+
+#ls-part-4{
+	animation-delay: 7.5s;
+}
+
+#ls-part-5{
+	animation-delay: 10s;
+}
+
+#ls-part-6{
+	animation-delay: 12.5s;
+}
+
+
 
 
 /*************************/
