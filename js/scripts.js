@@ -147,7 +147,7 @@ function topFunction() {
 }
 
 //ONLY IN DEVELOP
-// alert("Ultimos cambios: \n Links en iconos de redes sociales \n Se agregaron las tipografías: Vice City Sans y Caviar Dreams");
+alert("Últimos cambios: \n Página de Nosotros \n Animación en experiencia \n HTACCESS");
 
 
 /* Form */
