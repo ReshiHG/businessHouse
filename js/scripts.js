@@ -147,7 +147,14 @@ function topFunction() {
 }
 
 //ONLY IN DEVELOP
-alert("Últimos cambios: \n Página de Nosotros \n Animación en experiencia \n HTACCESS");
+alert("Últimos cambios: \n Página de Contacto \n Texto de Home \n Video home");
+
+// ----------------------------------------------------------
+// ------------------------- RECORDAR -----------------------
+// ----------------Eliminar el alert del formulario----------
+// -----------------quitar el .html de los enlaces----------
+// ----------------------------------------------------------
+
 
 
 /* Form */
