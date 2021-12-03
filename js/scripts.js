@@ -1,6 +1,17 @@
 /* Description: Custom JS file */
 
-/* Navigation*/
+/*****************************************
+Table Of Contents:
+- Navigation
+- Card slider 
+- Card Slider - Swiper
+- Filter - Isotope
+- Back To Top Button
+- Form
+- Cookies Advice
+******************************************/
+
+/********************************** Navigation **********************************/
 // Collapse the navbar by adding the top-nav-collapse class
 window.onscroll = function () {
 	scrollFunction();
@@ -71,7 +82,7 @@ if (dropdownCheck !== null) {
 }
   
 
-/* Card Slider - Swiper */
+/**************************** Card Slider - Swiper ****************************/
 var cardSlider = new Swiper('.card-slider', {
 	autoplay: {
 		delay: 4000,
@@ -85,7 +96,7 @@ var cardSlider = new Swiper('.card-slider', {
 });
 
 
-/* Filter - Isotope */
+/**************************** Filter - Isotope ****************************/
 const gridCheck = document.querySelector('.grid');
 
 if (gridCheck !== null) { 
@@ -127,7 +138,7 @@ if (gridCheck !== null) {
 }
 
 
-/* Back To Top Button */
+/************************* Back To Top Button *************************/
 // Get the button
 myButton = document.getElementById("myBtn");
 
@@ -147,7 +158,7 @@ function topFunction() {
 }
 
 //ONLY IN DEVELOP
-alert("Últimos cambios: \n Página de Contacto \n Texto de Home \n Video home");
+alert("Últimos cambios: \n Cambio de imágenes en home y nosotros \n Texto en Home \n Aviso de cookies \n Menú adaptable centrado \n Reducción tamaño logo móvil");
 
 // ----------------------------------------------------------
 // ------------------------- RECORDAR -----------------------
@@ -157,7 +168,7 @@ alert("Últimos cambios: \n Página de Contacto \n Texto de Home \n Video home")
 
 
 
-/* Form */
+/******************************** Form *********************************/
 
 const $form = document.querySelector("#contactForm");
 
@@ -179,3 +190,35 @@ async function handleSubmit (e){
 		alert ("funciono el envio de formulario");
 	}
 }
+
+
+
+/******************************** Cookies Advice *********************************/
+
+const 	d = document,
+		$cookiesAdvice = d.querySelector("#cookies-advice"),
+		$cookiesBtn = d.querySelector("#cookiesBtn");
+
+
+// Evento del boton para aceptar cookies
+$cookiesBtn.addEventListener("click", handleCookies);
+
+checkCookies();
+
+function handleCookies(e){
+	localStorage.setItem("cookiesAccepted", true);
+	checkCookies();
+};
+
+function checkCookies (){
+	// Cookies ya fueron aceptadas
+	if (localStorage.getItem("cookiesAccepted")){ //Evita el despliegue del aviso
+		$cookiesAdvice.classList.add("hide");
+		console.log("cookies aceptadas");
+		// Cookies rechazadas
+	} else {
+		$cookiesAdvice.classList.remove("hide");
+		console.log("cookies no aceptadas");
+	}
+}
+

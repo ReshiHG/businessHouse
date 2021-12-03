@@ -74,7 +74,7 @@
                         <a class="nav-link" href="contacto.html">Contacto</a>
                     </li>
                 </ul>
-                <span class="nav-item social-icons">
+                <div class="nav-item social-icons">
                     <span class="fa-stack">
                         <a target="_blank" href="https://www.facebook.com/BusinessHouseMkt">
                             <i class="fas fa-circle fa-stack-2x"></i>
@@ -93,7 +93,7 @@
                             <i class="fab fa-linkedin fa-stack-1x"></i>
                         </a>
                     </span>
-                </span>
+                </div>
             </div> <!-- end of navbar-collapse -->
         </div> <!-- end of container -->
     </nav> <!-- end of navbar -->
@@ -106,7 +106,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="h1-large">No pagues comisión por la venta de tu casa</h1>
+                        <h1 class="h1-large">No pagues comisión por la venta de tu propiedad</h1>
                         <a class="btn-solid-lg" href="#introduction">Descubre cómo</a>
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
@@ -115,8 +115,8 @@
         
         <!-- Video Background -->
         <video autoplay loop muted id="video-background" poster="images/header-background.jpg" playsinline>
-            <source src="images/header-desktop.mp4" type="video/mp4" media="min-device-width: 768px"/>
-            <source src="images/header-mobile.mp4" type="video/mp4"/>
+            <source src="images/header-desktop.mp4" type="video/mp4" media="screen and (min-width: 992px)"/>
+            <source src="images/header-mobile.mp4" type="video/mp4" media="(max-width: 991px)"/>
         </video>
         <!-- end of video background -->
 
@@ -125,16 +125,16 @@
 
 
     <!-- Introduction -->
-    <div id="introduction" class="cards-1">
+    <main id="introduction" class="cards-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="h2-heading">¿Qué es business House?</h2>
-                    <p class="p-heading">Somos una empresa de personal calificado en <b>marketing y asesoría inmobiliaria</b>, con un objetivo principal: Comercializar propiedades <strong>sin cobro de comisión</strong></p>
+                    <p class="p-heading">Somos una agencia de marketing digital especializados en el mercado inmobiliario; cuyo objetivo principal es: comercializar propiedades sin el cobro de comisión</p>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
+            <div class="row cards-container">
+                <!-- <div class="col-lg-12"> -->
 
                     <!-- Card -->
                     <div class="card">
@@ -143,7 +143,7 @@
                         </div>
                         <div class="card-body">
                             <h4 class="card-title">Edición de fotos</h4>
-                            <div class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni nesciunt debitis neque vel tempora necessitatibus? Quasi tempora nemo in eos ut sapiente quo quod officiis nostrum laborum minima, unde quam!</div>
+                            <!-- <div class="card-text"></div> -->
                         </div>
                     </div>
                     <!-- end of card -->
@@ -155,7 +155,7 @@
                         </div>
                         <div class="card-body">
                             <h4 class="card-title">Edición de material audiovisual</h4>
-                            <div class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis cumque, asperiores hic in minus, non, optio nobis eligendi officia sequi soluta provident praesentium!</div>
+                            <!-- <div class="card-text"></div> -->
                         </div>
                     </div>
                     <!-- end of card -->
@@ -167,7 +167,7 @@
                         </div>
                         <div class="card-body">
                             <h4 class="card-title">Campañas publicitarias</h4>
-                            <div class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt maiores iste rem deleniti a, suscipit eos quod!</div>
+                            <!-- <div class="card-text"></div> -->
                         </div>
                     </div>
                     <!-- end of card -->
@@ -179,20 +179,20 @@
                         </div>
                         <div class="card-body">
                             <h4 class="card-title">Asesoría legal</h4>
-                            <div class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt maiores iste rem deleniti a, suscipit eos quod!</div>
+                            <!-- <div class="card-text"></div> -->
                         </div>
                     </div>
                     <!-- end of card -->
 
-                </div> <!-- end of col -->
+                <!-- </div> end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
-    </div> <!-- end of cards-1 -->
+    </main> <!-- end of cards-1 -->
     <!-- end of introduction -->
 
 
     <!-- Details -->
-	<div class="split">
+	<section class="split">
 		<div class="area-1">
 		</div><!-- end of area-1 on same line and no space between comments to eliminate margin white space --><div class="area-2 bg-gray">
             <div class="container">    
@@ -202,10 +202,7 @@
                         <!-- Text Container -->
                         <div class="text-container">
                             <h2>La elección correcta</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis laboriosam itaque doloremque, fugit fuga sint vero quis impedit aperiam ratione.</p>
-                            <p><strong>Razón 1 -</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque architecto reiciendis autem?</p>
-                            <p><strong>Razón 2 -</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, incidunt.</p>
-                            <p><strong>Razón 3 -</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur velit rem nisi ullam expedita quas. Quasi, laudantium quisquam.</p>
+                            <p>Nos encargamos de tu propiedad; creamos contenido de valor diseñando especialmente para tu propiedad. Estaremos contigo en todo el proceso de venta.</p>
                         </div> <!-- end of text-container -->
                         <!-- end of text container -->
 
@@ -213,23 +210,24 @@
                 </div> <!-- end of row -->
             </div> <!-- end of container -->
 		</div> <!-- end of area-2 -->
-    </div> <!-- end of split -->
+    </section> <!-- end of split -->
     <!-- end of details -->
 
-
-    <!-- Services 1 -->
-    <div id="services" class="basic-1">
-        <div class="container">
+    <!-- Services -->
+    <section>
+        <!-- Services 1 -->
+        <div id="services" class="basic-1">
+            <div class="container">
             <div class="row">
                 <div class="col-lg-7">
                     <div class="image-container">
-                        <img class="img-fluid" src="images/services-1.jpg" alt="alternative">
+                        <img class="img-fluid" src="images/services-edicion.jpg" alt="Edición de fotos">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-5">
                     <div class="text-container">
                         <h2>Edición de fotos</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum labore alias repellendus dolores sed ut cumque, deserunt tempora quasi nemo amet.</p>
+                        <p>Nuestro equipo se encargará de darle la mejor imagen a tu propiedad</p>
                         <a class="read-more no-line green" href="articulo.html">Saber más <span class="fas fa-long-arrow-alt-right"></span></a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
@@ -245,13 +243,13 @@
             <div class="row">
                 <div class="col-lg-7">
                     <div class="image-container">
-                        <img class="img-fluid" src="images/services-2.jpg" alt="alternative">
+                        <img class="img-fluid" src="images/services-2.jpg" alt="Edicion de material audiovisual">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-5">
                     <div class="text-container">
                         <h2>Edición de material audiovisual</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia architecto minus deserunt consequatur cupiditate quis facere optio quam rerum fugiat.</p>
+                        <p>Creamos contenido (imágenes, flayers digitales y videos) de tu propiedad para mostrarlos en campañas y redes sociales.</p>
                         <a class="read-more no-line green" href="articulo.html">Saber más <span class="fas fa-long-arrow-alt-right"></span></a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
@@ -267,7 +265,7 @@
             <div class="row">
                 <div class="col-lg-7">
                     <div class="image-container">
-                        <img class="img-fluid" src="images/services-2.jpg" alt="alternative">
+                        <img class="img-fluid" src="images/services-campanias.jpg" alt="Campañas publicitarias">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-5">
@@ -288,7 +286,7 @@
             <div class="row">
                 <div class="col-lg-7">
                     <div class="image-container">
-                        <img class="img-fluid" src="images/services-3.jpg" alt="alternative">
+                        <img class="img-fluid" src="images/services-asesoria.jpg" alt="Asesoría legal">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-5">
@@ -300,12 +298,13 @@
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
-    </div> <!-- end of basic-3 -->
+    </section> <!-- end of basic-3 -->
     <!-- end of services 3 -->
+    </section>
 
 
     <!-- Projects -->
-	<div id="projects" class="filter bg-gray">
+	<section id="projects" class="filter bg-gray">
 		<div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -383,12 +382,12 @@
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
 		</div> <!-- end of container -->
-    </div> <!-- end of filter -->
+    </section> <!-- end of filter -->
     <!-- end of projects -->
 
 
     <!-- Testimonials -->
-    <div class="slider-1">
+    <section class="slider-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -436,12 +435,12 @@
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
-    </div> <!-- end of slider-1 -->
+    </section> <!-- end of slider-1 -->
     <!-- end of testimonials -->
 
 
     <!-- Statistics -->
-    <div class="counter bg-gray">
+    <section class="counter bg-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -466,12 +465,12 @@
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
-    </div> <!-- end of counter -->
+    </section> <!-- end of counter -->
     <!-- end of statistics -->
 
 
     <!-- Contact -->
-    <div id="contact" class="form-1">
+    <section id="contact" class="form-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -509,12 +508,12 @@
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
-    </div> <!-- end of form-1 -->
+    </section> <!-- end of form-1 -->
     <!-- end of contact -->
 
 
     <!-- Footer -->
-    <div class="footer">
+    <footer class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -552,7 +551,7 @@
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
-    </div> <!-- end of footer -->  
+    </footer> <!-- end of footer -->  
     <!-- end of footer -->
 
 
@@ -561,7 +560,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="p-small">Copyright©<a href="#your-link">Business House</a> 2021</p>
+                    <p class="p-small">© 2021 Business House</p>
                 </div> <!-- end of col -->
             </div> <!-- enf of row -->
         </div> <!-- end of container -->
@@ -574,6 +573,23 @@
         <img src="images/up-arrow.png" alt="alternative">
     </button>
     <!-- end of back to top button -->
+
+    <!-- Cookies advice -->
+    <aside id="cookies-advice" class="hide">
+        <!-- <div class="container"> -->
+            <div class="row">
+                <div class="cookies-text col-lg-10 col-sm-12">
+                    <h5 class="text-light">Aviso de cookies</h4>
+                    <p class="text-light p-small">Usamos cookies propias y de terceros para mejorar tu experiencia en nuestra web. Si continúas usando este sitio, asumiremos que estás de acuerdo con ello. Para saber más revisa nuestra <a href="#">política de cookies</a>.</p>
+                </div>
+                <div class="cookies-btn col-lg-2 col-sm-12">
+                    <button class="btn-solid-reg" id="cookiesBtn">Aceptar</button>
+                </div>
+            </div>
+        <!-- </div> -->
+    </aside>
+    <!-- end of cookies advice -->
+    
     	
     <!-- Scripts -->
     <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->

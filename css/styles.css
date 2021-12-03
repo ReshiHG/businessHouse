@@ -18,16 +18,18 @@ Table Of Contents:
 - Contact
 - Footer
 - Copyright
-- Back To Top Button
-- Extra Pages
 ----------------- Nosotros ----------------
 - Misión y visión
 - Experience
 ----------------- Contacto ----------------
 - Frase
 - Contactform
--------------------------------------------
 - Social Media
+------------------- Extra -----------------
+- Back To Top Button
+- Extra Pages
+- Cookies Advice
+-------------------------------------------
 - Media Queries
 ******************************************/
 
@@ -70,7 +72,7 @@ Colors:
 
 
 /**************************/
-/*        Variable        */
+/*        Variables       */
 /**************************/
 :root{
 	--backgroud: #f7f9fd;
@@ -367,6 +369,9 @@ a:hover {
 	color: var(--buttons-icons);
 }
 
+.hide{
+	display: none;
+}
 
 /**********************/
 /*     Navigation     */
@@ -385,8 +390,7 @@ a:hover {
 }
 
 .navbar .logo-image img {
-    /*width: 100px;*/
-	height: 65px;
+	height: 35px;
 }
 
 .navbar .logo-text {
@@ -422,6 +426,10 @@ a:hover {
 .navbar .navbar-nav {
 	margin-top: 0.75rem;
 	margin-bottom: 0.5rem;
+}
+
+.navbar .nav-item{
+	text-align: center;
 }
 
 .navbar .nav-item .nav-link {
@@ -577,8 +585,14 @@ a:hover {
 	text-align: center;
 }
 
+.cards-1 .cards-container{
+	display: flex;
+	justify-content: space-evenly;
+	padding-bottom: 3rem;
+}
+
 .cards-1 .card {
-	margin-bottom: 4rem;
+	/* margin-bottom: 4rem; */
 	border: none;
 	border-radius: 6px;
 	padding: 30px;
@@ -615,7 +629,7 @@ a:hover {
 /*******************/
 .split .area-1 {
 	height: 430px;
-	background: url('../images/details-background.jpg') center center no-repeat;
+	background: url('../images/details-background.png') center center no-repeat;
 	background-size: cover;
 }
 
@@ -976,91 +990,6 @@ a:hover {
 }
 
 
-/******************************/
-/*     Back To Top Button     */
-/******************************/
-#myBtn {
-	position: fixed; 
-  	z-index: 99; 
-	bottom: 20px; 
-	right: 20px; 
-	display: none; 
-	width: 52px;
-	height: 52px;
-	border: none; 
-	border-radius: 50%; 
-	outline: none; 
-	background-color: #323137; 
-	cursor: pointer; 
-}
-
-#myBtn:hover {
-	background-color: #0f0f11;
-}
-
-#myBtn img {
-	margin-bottom: 0.25rem;
-	margin-left: 0.125rem;
-	width: 18px;
-}
-
-
-/***********************/
-/*     Extra Pages     */
-/***********************/
-.ex-header {
-	padding-top: 8.5rem;
-	padding-bottom: 4rem;
-	background-color: var(--heading-text);
-}
-
-.ex-header h1 {
-	color: #ffffff;
-}
-
-.ex-basic-1 .list-unstyled .fas {
-	font-size: 0.375rem;
-	line-height: 1.625rem;
-}
-
-.ex-basic-1 .list-unstyled .flex-grow-1 {
-	margin-left: 0.5rem;
-}
-
-.ex-basic-1 .text-box {
-	padding: 1.25rem 1.25rem 0.5rem 1.25rem;
-	background-color: #f7f9fd;
-}
-
-.ex-cards-1 .card {
-	border: none;
-	background-color: transparent;
-}
-
-.ex-cards-1 .card .fa-stack {
-	width: 2em;
-	font-size: 1.125rem;
-}
-
-.ex-cards-1 .card .fa-stack-2x {
-	color: var(--buttons-icons);
-}
-
-.ex-cards-1 .card .fa-stack-1x {
-	width: 2em;
-	color: #ffffff;
-	font-weight: 700;
-	line-height: 2.125rem;
-}
-
-.ex-cards-1 .card .list-unstyled .flex-grow-1 {
-	margin-left: 2.25rem;
-}
-
-.ex-cards-1 .card .list-unstyled .flex-grow-1 h5 {
-	margin-top: 0.125rem;
-	margin-bottom: 0.5rem;
-}
 
 
 
@@ -1223,6 +1152,121 @@ a:hover {
 
 
 
+/****************************************************************************************/
+/*****************************              Extras             **************************/
+/****************************************************************************************/
+
+/******************************/
+/*     Back To Top Button     */
+/******************************/
+#myBtn {
+	position: fixed; 
+  	z-index: 99; 
+	bottom: 20px; 
+	right: 20px; 
+	display: none; 
+	width: 52px;
+	height: 52px;
+	border: none; 
+	border-radius: 50%; 
+	outline: none; 
+	background-color: #323137; 
+	cursor: pointer; 
+}
+
+#myBtn:hover {
+	background-color: #0f0f11;
+}
+
+#myBtn img {
+	margin-bottom: 0.25rem;
+	margin-left: 0.125rem;
+	width: 18px;
+}
+
+
+/***********************/
+/*     Extra Pages     */
+/***********************/
+.ex-header {
+	padding-top: 8.5rem;
+	padding-bottom: 4rem;
+	background-color: var(--heading-text);
+}
+
+.ex-header h1 {
+	color: #ffffff;
+}
+
+.ex-basic-1 .list-unstyled .fas {
+	font-size: 0.375rem;
+	line-height: 1.625rem;
+}
+
+.ex-basic-1 .list-unstyled .flex-grow-1 {
+	margin-left: 0.5rem;
+}
+
+.ex-basic-1 .text-box {
+	padding: 1.25rem 1.25rem 0.5rem 1.25rem;
+	background-color: #f7f9fd;
+}
+
+.ex-cards-1 .card {
+	border: none;
+	background-color: transparent;
+}
+
+.ex-cards-1 .card .fa-stack {
+	width: 2em;
+	font-size: 1.125rem;
+}
+
+.ex-cards-1 .card .fa-stack-2x {
+	color: var(--buttons-icons);
+}
+
+.ex-cards-1 .card .fa-stack-1x {
+	width: 2em;
+	color: #ffffff;
+	font-weight: 700;
+	line-height: 2.125rem;
+}
+
+.ex-cards-1 .card .list-unstyled .flex-grow-1 {
+	margin-left: 2.25rem;
+}
+
+.ex-cards-1 .card .list-unstyled .flex-grow-1 h5 {
+	margin-top: 0.125rem;
+	margin-bottom: 0.5rem;
+}
+
+
+/***********************/
+/*   Cookies Advice    */
+/***********************/
+
+
+#cookies-advice{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 100;
+	background-color: var(--heading-text);
+	padding: 1rem 3rem;
+	width: 100vw;
+}
+
+.cookies-btn{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cookies-btn .btn-solid-reg{
+	width: 100%;
+}
 
 
 /****************************************************************************************/
@@ -1234,6 +1278,7 @@ a:hover {
 /*************************/	
 /* Min-width 768px */
 @media (min-width: 768px) {
+
 
 	/* Header */
 	.header .header-content {
@@ -1326,6 +1371,10 @@ a:hover {
 		transform: none;
 	}
 
+	.navbar .logo-image img {
+		height: 65px;
+	}
+	
 	.navbar .navbar-nav {
 		margin-top: 0;
 		margin-bottom: 0;
@@ -1374,14 +1423,14 @@ a:hover {
 	/* Introduction */
 	.cards-1 .card {
 		display: inline-block;
-		width: 290px;
+		width: 270px;
 		vertical-align: top;
 	}
 	
-	.cards-1 .card:nth-of-type(3n+2) {
+	/* .cards-1 .card:nth-of-type(3n+2) {
 		margin-right: 1.75rem;
 		margin-left: 1.75rem;
-	}
+	} */
 	/* end of introduction */
 
 
@@ -1526,10 +1575,10 @@ a:hover {
 	}
 	/* end of header */
 
-	.cards-1 .card:nth-of-type(3n+2) {
+	/* .cards-1 .card:nth-of-type(3n+2) {
 		margin-right: 3.625rem;
 		margin-left: 3.625rem;
-	}
+	} */
 	/* end of introduction */
 
 
