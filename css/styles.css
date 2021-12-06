@@ -28,6 +28,7 @@ Table Of Contents:
 ------------------- Extra -----------------
 - Back To Top Button
 - Extra Pages
+- Comming soon page
 - Cookies Advice
 -------------------------------------------
 - Media Queries
@@ -538,7 +539,7 @@ a:hover {
 
 .header #video-background {
 	position: absolute;
-	left: 0;
+	left: -750px;
 	top: 0;
 	min-width: 100%;
 	min-height: 100%;
@@ -562,7 +563,7 @@ a:hover {
 .header .h1-large {
 	margin-bottom: 2.25rem;
 	color: #ffffff;
-	font-size: 3rem;
+	font-size: 2.7rem;
 	line-height: 3.75rem;
 }
 
@@ -1244,6 +1245,19 @@ a:hover {
 
 
 /***********************/
+/*    Comming soon     */
+/***********************/
+
+.comming-soon{
+	display: flex;
+	height: 80vh;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+/***********************/
 /*   Cookies Advice    */
 /***********************/
 
@@ -1414,8 +1428,12 @@ a:hover {
 	
 	.header .h1-large {
 		margin-bottom: 2.75rem;
-		font-size: 5rem;
+		font-size: 4rem;
 		line-height: 5.75rem;
+	}
+
+	.header #video-background {
+		left: 0;
 	}
 	/* end of header */
 

@@ -158,7 +158,7 @@ function topFunction() {
 }
 
 //ONLY IN DEVELOP
-alert("Últimos cambios: \n Cambio de imágenes en home y nosotros \n Texto en Home \n Aviso de cookies \n Menú adaptable centrado \n Reducción tamaño logo móvil");
+// alert("Últimos cambios: \n Cambio de imágenes en home y nosotros \n Texto en Home \n Aviso de cookies \n Menú adaptable centrado \n Reducción tamaño logo móvil");
 
 // ----------------------------------------------------------
 // ------------------------- RECORDAR -----------------------
@@ -195,30 +195,30 @@ async function handleSubmit (e){
 
 /******************************** Cookies Advice *********************************/
 
-const 	d = document,
-		$cookiesAdvice = d.querySelector("#cookies-advice"),
-		$cookiesBtn = d.querySelector("#cookiesBtn");
+// const 	d = document,
+// 		$cookiesAdvice = d.querySelector("#cookies-advice"),
+// 		$cookiesBtn = d.querySelector("#cookiesBtn");
 
 
-// Evento del boton para aceptar cookies
-$cookiesBtn.addEventListener("click", handleCookies);
+// // Evento del boton para aceptar cookies
+// $cookiesBtn.addEventListener("click", handleCookies);
 
-checkCookies();
+// checkCookies();
 
-function handleCookies(e){
-	localStorage.setItem("cookiesAccepted", true);
-	checkCookies();
-};
+// function handleCookies(e){
+// 	localStorage.setItem("cookiesAccepted", true);
+// 	checkCookies();
+// };
 
-function checkCookies (){
-	// Cookies ya fueron aceptadas
-	if (localStorage.getItem("cookiesAccepted")){ //Evita el despliegue del aviso
-		$cookiesAdvice.classList.add("hide");
-		console.log("cookies aceptadas");
-		// Cookies rechazadas
-	} else {
-		$cookiesAdvice.classList.remove("hide");
-		console.log("cookies no aceptadas");
-	}
-}
+// function checkCookies (){
+// 	// Cookies ya fueron aceptadas
+// 	if (localStorage.getItem("cookiesAccepted")){ //Evita el despliegue del aviso
+// 		$cookiesAdvice.classList.add("hide");
+// 		console.log("cookies aceptadas");
+// 		// Cookies rechazadas
+// 	} else {
+// 		$cookiesAdvice.classList.remove("hide");
+// 		console.log("cookies no aceptadas");
+// 	}
+// }
 
