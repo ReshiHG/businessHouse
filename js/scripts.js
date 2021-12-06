@@ -1,6 +1,17 @@
 /* Description: Custom JS file */
 
-/* Navigation*/
+/*****************************************
+Table Of Contents:
+- Navigation
+- Card slider 
+- Card Slider - Swiper
+- Filter - Isotope
+- Back To Top Button
+- Form
+- Cookies Advice
+******************************************/
+
+/********************************** Navigation **********************************/
 // Collapse the navbar by adding the top-nav-collapse class
 window.onscroll = function () {
 	scrollFunction();
@@ -71,7 +82,7 @@ if (dropdownCheck !== null) {
 }
   
 
-/* Card Slider - Swiper */
+/**************************** Card Slider - Swiper ****************************/
 var cardSlider = new Swiper('.card-slider', {
 	autoplay: {
 		delay: 4000,
@@ -85,7 +96,7 @@ var cardSlider = new Swiper('.card-slider', {
 });
 
 
-/* Filter - Isotope */
+/**************************** Filter - Isotope ****************************/
 const gridCheck = document.querySelector('.grid');
 
 if (gridCheck !== null) { 
@@ -127,7 +138,7 @@ if (gridCheck !== null) {
 }
 
 
-/* Back To Top Button */
+/************************* Back To Top Button *************************/
 // Get the button
 myButton = document.getElementById("myBtn");
 
@@ -145,3 +156,69 @@ function topFunction() {
 	document.body.scrollTop = 0; // for Safari
 	document.documentElement.scrollTop = 0; // for Chrome, Firefox, IE and Opera
 }
+
+//ONLY IN DEVELOP
+// alert("Últimos cambios: \n Cambio de imágenes en home y nosotros \n Texto en Home \n Aviso de cookies \n Menú adaptable centrado \n Reducción tamaño logo móvil");
+
+// ----------------------------------------------------------
+// ------------------------- RECORDAR -----------------------
+// ----------------Eliminar el alert del formulario----------
+// -----------------quitar el .html de los enlaces----------
+// ----------------------------------------------------------
+
+
+
+/******************************** Form *********************************/
+
+const $form = document.querySelector("#contactForm");
+
+$form.addEventListener("submit", handleSubmit);
+
+async function handleSubmit (e){
+	e.preventDefault();
+	const formData = new FormData(this);
+
+	const response = await fetch(this.action, {
+		method: this.method,
+		body: formData,
+		headers: {
+			'Accept':'application/json'
+		}
+	})
+	if (response.ok) {
+		this.reset();
+		alert ("funciono el envio de formulario");
+	}
+}
+
+
+
+/******************************** Cookies Advice *********************************/
+
+// const 	d = document,
+// 		$cookiesAdvice = d.querySelector("#cookies-advice"),
+// 		$cookiesBtn = d.querySelector("#cookiesBtn");
+
+
+// // Evento del boton para aceptar cookies
+// $cookiesBtn.addEventListener("click", handleCookies);
+
+// checkCookies();
+
+// function handleCookies(e){
+// 	localStorage.setItem("cookiesAccepted", true);
+// 	checkCookies();
+// };
+
+// function checkCookies (){
+// 	// Cookies ya fueron aceptadas
+// 	if (localStorage.getItem("cookiesAccepted")){ //Evita el despliegue del aviso
+// 		$cookiesAdvice.classList.add("hide");
+// 		console.log("cookies aceptadas");
+// 		// Cookies rechazadas
+// 	} else {
+// 		$cookiesAdvice.classList.remove("hide");
+// 		console.log("cookies no aceptadas");
+// 	}
+// }
+
