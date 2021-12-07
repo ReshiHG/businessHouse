@@ -354,8 +354,20 @@
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </section> <!-- end of form-1 -->
-    <!-- end of contact -->
 
+
+    <aside class="form-advice hide">
+        <div class="fa-container">
+            <div class="col-lg-12 col-sm-12">
+                <h5 class="text-light">¡Datos enviados!</h4>
+                <p class="text-light p-small">Nos pondremos en contacto contigo muy pronto</p>
+            </div>
+            <div class="col-lg-12 col-sm-12">
+                <button class="btn-solid-reg" id="fa-btn">Aceptar</button>
+            </div>
+        </div>
+    </aside>
+    <!-- end of contact -->
 
     <!-- Footer -->
     <footer class="footer">
@@ -369,8 +381,8 @@
                     <div class="footer-col second">
                         <h6>Enlaces</h6>
                         <ul class="list-unstyled li-space-lg p-small">
-                            <li><a href="terminos.html">Términos y condiciones</a></li>
-                            <li><a href="privacidad.html">Política de privacidad</a></li>
+                            <li><a href="#">Términos y condiciones</a></li>
+                            <li><a href="#">Política de privacidad</a></li>
                         </ul>
                     </div> <!-- end of footer-col -->
                     <div class="footer-col third text-center">
@@ -419,15 +431,16 @@
     <!-- end of copyright -->
     
 
+
     <!-- Back To Top Button -->
     <button onclick="topFunction()" id="myBtn">
         <img src="images/up-arrow.png" alt="alternative">
     </button>
     <!-- end of back to top button -->
 
+
     <!-- Cookies advice -->
     <aside id="cookies-advice" class="hide">
-        <!-- <div class="container"> -->
             <div class="row">
                 <div class="cookies-text col-lg-10 col-sm-12">
                     <h5 class="text-light">Aviso de cookies</h4>
@@ -437,16 +450,49 @@
                     <button class="btn-solid-reg" id="cookiesBtn">Aceptar</button>
                 </div>
             </div>
-        <!-- </div> -->
     </aside>
     <!-- end of cookies advice -->
     
     	
+
+
     <!-- Scripts -->
     <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
     <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
     <script src="js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
     <script src="js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
+
+    <!-- Messenger Plugin de chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin de chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "102453522268675");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- end of messenger-plugin -->
 </body>
 </html>

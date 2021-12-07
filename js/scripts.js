@@ -170,11 +170,11 @@ function topFunction() {
 
 /******************************** Form *********************************/
 
-const $form = document.querySelector("#contactForm");
+const 	$form = document.querySelector("#contactForm"),
+		$formAdvice = document.querySelector(".form-advice"),
+		$formAdviceBtn = document.querySelector("#fa-btn");
 
-$form.addEventListener("submit", handleSubmit);
-
-async function handleSubmit (e){
+$form.addEventListener("submit", async function (e){
 	e.preventDefault();
 	const formData = new FormData(this);
 
@@ -187,9 +187,36 @@ async function handleSubmit (e){
 	})
 	if (response.ok) {
 		this.reset();
-		alert ("funciono el envio de formulario");
+		$formAdvice.classList.remove("hide");
+		$formAdvice.classList.add("show")
+		// alert ("funciono el envio de formulario");
 	}
-}
+});
+
+$formAdviceBtn.addEventListener("click", () => {
+	$formAdvice.classList.add("hide");
+	$formAdvice.classList.remove("show");
+});
+
+
+// async function handleSubmit (e){
+// 	e.preventDefault();
+// 	const formData = new FormData(this);
+
+// 	const response = await fetch(this.action, {
+// 		method: this.method,
+// 		body: formData,
+// 		headers: {
+// 			'Accept':'application/json'
+// 		}
+// 	})
+// 	if (response.ok) {
+// 		this.reset();
+// 		$formAdvice.classList.remove("hide");
+// 		$formAdvice.classList.add("show")
+// 		// alert ("funciono el envio de formulario");
+// 	}
+// }
 
 
 
