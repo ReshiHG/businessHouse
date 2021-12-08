@@ -382,11 +382,11 @@ a:hover {
 /*     Navigation     */
 /**********************/
 .navbar {
-	background-color: var(--heading-text);
+	background-color: var(--backgroud);
 	font-weight: 600;
 	font-size: 1.1rem;
 	line-height: 0.875rem;
-	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.025);
+	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.3);
 }
 
 .navbar .navbar-brand {
@@ -416,7 +416,7 @@ a:hover {
 	padding-left: 1rem;
 	overflow-y: auto;
 	visibility: hidden;
-	background-color: var(--heading-text);
+	background-color: var(--backgroud);
 	transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
 	transition: transform .3s ease-in-out, visibility .3s ease-in-out;
 	transition: transform .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
@@ -437,18 +437,34 @@ a:hover {
 	text-align: center;
 }
 
-.navbar .nav-item .nav-link {
+/* Dark version */
+.top-nav-no-collapse .nav-item .nav-link {
 	padding-top: 0.625rem;
 	padding-bottom: 0.625rem;
-	color: #eeeeee;
+	color: var(--backgroud);
 	text-decoration: none;
 	transition: all 0.2s ease;
 }
 
-.navbar .nav-item.dropdown.show .nav-link,
-.navbar .nav-item .nav-link:hover,
-.navbar .nav-item .nav-link.active {
+.top-nav-no-collapse .nav-item.dropdown.show .nav-link,
+.top-nav-no-collapse .nav-item .nav-link:hover,
+.top-nav-no-collapse .nav-item .nav-link.active {
 	color: var(--buttons-icons);
+}
+
+/* Light version */
+.top-nav-collapse .nav-item .nav-link {
+	padding-top: 0.625rem;
+	padding-bottom: 0.625rem;
+	color: var(--buttons-icons);
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+
+.top-nav-collapse .nav-item.dropdown.show .nav-link,
+.top-nav-collapse .nav-item .nav-link:hover,
+.top-nav-collapse .nav-item .nav-link.active {
+	color: var(--heading-text);
 }
 
 /* Dropdown Menu */
@@ -513,12 +529,21 @@ a:hover {
 	transition: all 0.2s ease;
 }
 
-.navbar .fa-stack:hover .fa-stack-2x {
+/* Dark version */
+.top-nav-no-collapse .fa-stack:hover .fa-stack-2x {
 	color: #ffffff;
 }
 
-.navbar .fa-stack:hover .fa-stack-1x {
+.top-nav-no-collapse .fa-stack:hover .fa-stack-1x {
 	color: var(--buttons-icons);
+}
+/* Light version */
+.top-nav-collapse .fa-stack:hover .fa-stack-2x {
+	color: var(--heading-text);
+}
+
+.top-nav-collapse .fa-stack:hover .fa-stack-1x {
+	color: var(--backgroud);
 }
 
 .navbar .navbar-toggler {
@@ -1399,8 +1424,8 @@ a:hover {
 	.navbar.top-nav-collapse {
 		padding-top: 0.5rem;
 		padding-bottom: 0.5rem;
-		background-color: var(--heading-text);
-		box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.025);
+		background-color: var(--backgroud);
+		box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.3);
 	}
 
 	.offcanvas-collapse {
