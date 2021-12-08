@@ -13,6 +13,10 @@ Table Of Contents:
 
 /********************************** Navigation **********************************/
 // Collapse the navbar by adding the top-nav-collapse class
+const 	$navBar = document.querySelector("#navbar"),
+		$darkLogo = document.querySelector("#dark-logo"),
+		$lightLogo = document.querySelector("#light-logo");
+
 window.onscroll = function () {
 	scrollFunction();
 	scrollFunctionBTT(); // back to top button
@@ -23,10 +27,29 @@ window.onload = function () {
 };
 
 function scrollFunction() {
-	if (document.documentElement.scrollTop > 30) {
-		document.getElementById("navbar").classList.add("top-nav-collapse");
-	} else if ( document.documentElement.scrollTop < 30 ) {
-		document.getElementById("navbar").classList.remove("top-nav-collapse");
+	if (innerWidth < 992){
+		$navBar.classList.add("top-nav-collapse");
+		$navBar.classList.remove("top-nav-no-collapse");
+		$darkLogo.classList.add("hide");
+		$darkLogo.classList.remove("show");
+		$lightLogo.classList.add("show");
+		$lightLogo.classList.remove("hide");
+	} else {
+		if (document.documentElement.scrollTop > 30) {
+			$navBar.classList.add("top-nav-collapse");
+			$navBar.classList.remove("top-nav-no-collapse");
+			$darkLogo.classList.add("hide");
+			$darkLogo.classList.remove("show");
+			$lightLogo.classList.add("show");
+			$lightLogo.classList.remove("hide");
+		} else if ( document.documentElement.scrollTop < 30 ) {
+			$navBar.classList.remove("top-nav-collapse");
+			$navBar.classList.add("top-nav-no-collapse");
+			$lightLogo.classList.add("hide");
+			$lightLogo.classList.remove("show");
+			$darkLogo.classList.add("show");
+			$darkLogo.classList.remove("hide");
+		}
 	}
 }
 
