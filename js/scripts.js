@@ -9,6 +9,7 @@ Table Of Contents:
 - Back To Top Button
 - Form
 - Cookies Advice
+- Form Pop-Up
 ******************************************/
 
 /********************************** Navigation **********************************/
@@ -217,6 +218,8 @@ $form.addEventListener("submit", async function (e){
 	})
 	if (response.ok) {
 		this.reset();
+		$formPopUp.classList.add("hide");
+		$formPopUp.classList.remove("show");
 		$formAdvice.classList.remove("hide");
 		$formAdvice.classList.add("show")
 		// alert ("funciono el envio de formulario");
@@ -227,26 +230,6 @@ $formAdviceBtn.addEventListener("click", () => {
 	$formAdvice.classList.add("hide");
 	$formAdvice.classList.remove("show");
 });
-
-
-// async function handleSubmit (e){
-// 	e.preventDefault();
-// 	const formData = new FormData(this);
-
-// 	const response = await fetch(this.action, {
-// 		method: this.method,
-// 		body: formData,
-// 		headers: {
-// 			'Accept':'application/json'
-// 		}
-// 	})
-// 	if (response.ok) {
-// 		this.reset();
-// 		$formAdvice.classList.remove("hide");
-// 		$formAdvice.classList.add("show")
-// 		// alert ("funciono el envio de formulario");
-// 	}
-// }
 
 
 
@@ -278,4 +261,31 @@ $formAdviceBtn.addEventListener("click", () => {
 // 		console.log("cookies no aceptadas");
 // 	}
 // }
+
+/******************************** Form PopUp *********************************/
+
+
+const 	$formPopUp = document.querySelector("#form-popup"),
+		$propiedadBtn = document.querySelectorAll(".propiedadBtn"),
+		$formPropiedad = document.querySelector("#formPropiedad"),
+		$formExit = document.querySelector("#form-exit");
+
+$formExit.addEventListener("click", function (){
+	$formPopUp.classList.remove("show");
+	$formPopUp.classList.add("hide");
+});
+
+$propiedadBtn.forEach(el => {
+	// console.log(e);
+	el.addEventListener("click", function () {
+		$formPopUp.classList.add("show");
+		$formPopUp.classList.remove("hide");
+		$formPropiedad.value = `${el.dataset.propiedad}`;
+	});
+});
+
+// $propiedadBtn.addEventListener("click", function () {
+// 	$formPopUp.classList.add("show");
+// 	$formPopUp.classList.remove("hide");
+// });
 

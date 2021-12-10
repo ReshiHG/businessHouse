@@ -27,6 +27,7 @@ Table Of Contents:
 - Social Media
 ---------------- Propiedades --------------
 - State cards
+- Form PopUp
 ------------------- Extra -----------------
 - Back To Top Button
 - Extra Pages
@@ -1232,7 +1233,7 @@ a:hover {
 /****************************************************************************************/
 
 /******************************/
-/*     State     */
+/*            State           */
 /******************************/
 
 #state-cards{
@@ -1270,6 +1271,60 @@ a:hover {
 
 #projects .btn-solid-reg{
 	width: 100%;
+}
+
+
+/******************************/
+/*         Form PopUp         */
+/******************************/
+
+#form-popup{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	height: 100vh;
+	width: 100vw;
+	/* display: flex; */
+	background-color: rgba(0, 0, 0, 0.25);
+	justify-content: center;
+	align-items: center;
+}
+
+#form-popup h2{
+	color: #f7f9fd;
+	padding-bottom: 2rem;
+}
+
+.fp-container{
+	background-color: var(--heading-text);
+	width: 80vw;
+	height: auto;
+	padding: 3rem 2.5rem;
+	border-radius: 15px;
+	text-align: center;
+	border: solid 2px var(--buttons-icons);
+	position: relative;
+}
+
+#form-popup .fa-stack-2x{
+	color: var(--buttons-icons);
+}
+
+#form-exit{
+	position: absolute;
+	right: 10px;
+	top: 13px;
+	padding-bottom: 1rem;
+}
+
+#form-exit:hover{
+	cursor: pointer;
+}
+
+#form-exit .fa-times{
+	color: #fff;
+	font-size: 1.5rem;
 }
 
 
@@ -1643,6 +1698,11 @@ a:hover {
 	/* Contact */	
 	.fa-container{
 		width: auto;
+		padding: 3rem 2.5rem;
+	}
+
+	.fp-container{
+		width: 700px;
 		padding: 3rem 2.5rem;
 	}
 	/* end of contact */
