@@ -15,7 +15,9 @@ Table Of Contents:
 // Collapse the navbar by adding the top-nav-collapse class
 const 	$navBar = document.querySelector("#navbar"),
 		$darkLogo = document.querySelector("#dark-logo"),
-		$lightLogo = document.querySelector("#light-logo");
+		$lightLogo = document.querySelector("#light-logo"),
+		$navLinksContainer = document.querySelector(".navbar-nav"),
+		$navLightLogo = document.querySelector("#light-logo img");
 
 window.onscroll = function () {
 	scrollFunction();
@@ -27,28 +29,34 @@ window.onload = function () {
 };
 
 function scrollFunction() {
-	if (innerWidth < 992){
+	if (innerWidth < 992){ // Tablet Mobile screen
 		$navBar.classList.add("top-nav-collapse");
 		$navBar.classList.remove("top-nav-no-collapse");
-		$darkLogo.classList.add("hide");
-		$darkLogo.classList.remove("show");
-		$lightLogo.classList.add("show");
-		$lightLogo.classList.remove("hide");
-	} else {
+		// $darkLogo.classList.add("hide");
+		// $darkLogo.classList.remove("show");
+		// $lightLogo.classList.add("show");
+		// $lightLogo.classList.remove("hide");
+	} else { // Desktop screen
 		if (document.documentElement.scrollTop > 30) {
 			$navBar.classList.add("top-nav-collapse");
 			$navBar.classList.remove("top-nav-no-collapse");
-			$darkLogo.classList.add("hide");
-			$darkLogo.classList.remove("show");
-			$lightLogo.classList.add("show");
-			$lightLogo.classList.remove("hide");
+			$navLinksContainer.classList.remove("bg-green");
+			$navLightLogo.style.height = "60px"
+			// $navLinksContainer.style.backgroundColor = "#f7f9fd";
+			// $darkLogo.classList.add("hide");
+			// $darkLogo.classList.remove("show");
+			// $lightLogo.classList.add("show");
+			// $lightLogo.classList.remove("hide");
 		} else if ( document.documentElement.scrollTop < 30 ) {
 			$navBar.classList.remove("top-nav-collapse");
 			$navBar.classList.add("top-nav-no-collapse");
-			$lightLogo.classList.add("hide");
-			$lightLogo.classList.remove("show");
-			$darkLogo.classList.add("show");
-			$darkLogo.classList.remove("hide");
+			$navLinksContainer.classList.add("bg-green");
+			$navLightLogo.style.height = "120px";
+			// $navLinksContainer.style.backgroundColor = "var(--buttons-icons)";
+			// $lightLogo.classList.add("hide");
+			// $lightLogo.classList.remove("show");
+			// $darkLogo.classList.add("show");
+			// $darkLogo.classList.remove("hide");
 		}
 	}
 }
@@ -185,8 +193,7 @@ function topFunction() {
 
 // ----------------------------------------------------------
 // ------------------------- RECORDAR -----------------------
-// ----------------Eliminar el alert del formulario----------
-// -----------------quitar el .html de los enlaces----------
+// -----------------quitar el .html de los enlaces-----------
 // ----------------------------------------------------------
 
 

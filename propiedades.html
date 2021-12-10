@@ -34,14 +34,14 @@
 <body>
     
     <!-- Navigation -->
-    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light top-nav-no-collapse" aria-label="Main navigation">
         <div class="container">
 
             <!-- Image Logo -->
             <!-- Dark logo -->
-            <a id="dark-logo" class="navbar-brand logo-image show" href="index.html"><img src="images/BH_logo_blanco.svg" alt="Logo Business House"></a> 
+            <!-- <a id="dark-logo" class="navbar-brand logo-image show" href="index.html"><img src="images/BH_logo_blanco.svg" alt="Logo Business House"></a>  -->
             <!-- Light logo -->
-            <a id="light-logo" class="navbar-brand logo-image hide" href="index.html"><img src="images/BH_logo_normal.svg" alt="Logo Business House"></a> 
+            <a id="light-logo" class="navbar-brand logo-image show" href="index.html"><img src="images/BH_logo_normal.svg" alt="Logo Business House"></a> 
 
             <!-- Text Logo - Use this if you don't have a graphic logo -->
             <!-- <a class="navbar-brand logo-text" href="index.html">Desi</a> -->
@@ -53,15 +53,15 @@
             <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav ms-auto navbar-nav-scroll">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html#header">Inicio</a>
+                        <a class="nav-link" aria-current="page" href="index.html#header">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html#services">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#projects">Propiedades</a>
+                        <a class="nav-link active" href="propiedades.html">Propiedades</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Nosotros</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown01">
                             <li><a class="dropdown-item" href="nosotros.html">¿Quiénes somos?</a></li>
@@ -72,16 +72,25 @@
                             <li><div class="dropdown-divider"></div></li>
                             <li><a class="dropdown-item" href="privacidad.html">Política de privacidad</a></li>
                         </ul>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">¿Quiénes somos?</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contacto.html">Contacto</a>
                     </li>
                 </ul>
-                <span class="nav-item social-icons">
+                <div class="nav-item social-icons">
                     <span class="fa-stack">
                         <a target="_blank" href="https://www.facebook.com/BusinessHouseMkt">
                             <i class="fas fa-circle fa-stack-2x"></i>
                             <i class="fab fa-facebook-f fa-stack-1x"></i>
+                        </a>
+                    </span>
+                    <span class="fa-stack">
+                        <a target="_blank" href="https://wa.link/bcbqn2">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-whatsapp fa-stack-1x"></i>
                         </a>
                     </span>
                     <span class="fa-stack">
@@ -96,7 +105,7 @@
                             <i class="fab fa-linkedin fa-stack-1x"></i>
                         </a>
                     </span>
-                </span>
+                </div>
             </div> <!-- end of navbar-collapse -->
         </div> <!-- end of container -->
     </nav> <!-- end of navbar -->
@@ -107,26 +116,174 @@
     <header class="ex-header">
         <div class="container">
             <div class="row">
-                <div class="col-xl-10 offset-xl-1">
+                <div class="col-xl-10 offset-xl-1 text-center">
                     <h1>Propiedades</h1>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </header> <!-- end of ex-header -->
-    <!-- end of header -->
+    <!-- end of header -->   
 
 
-    <!-- Basic -->
-    <section class="ex-basic-1 pt-4">
+    <!-- State -->
+    <section id="state-cards">
         <div class="container">
+            <div class="cards-container">
+                <div class="card col-11 col-md-5 col-lg-3 casa">
+                    <img src="Propiedades/Prop2/image2.jpg" class="card-img-top" alt="Casa 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Casa 1</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Dirección 342</li>
+                            <li class="list-group-item">$$$$$$$</li>
+                        </ul>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, eligendi blanditiis necessitatibus animi excepturi cupiditate.</p>
+                        <a href="#" class="btn-solid-reg">Contactar</a>
+                    </div>
+                </div>
+                <div class="card col-11 col-md-5 col-lg-3 departamento">
+                    <img src="Propiedades/Prop2/image2.jpg" class="card-img-top" alt="Casa 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Depa 1</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Dirección 342</li>
+                            <li class="list-group-item">$$$$$$$</li>
+                        </ul>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, eligendi blanditiis necessitatibus animi excepturi cupiditate.</p>
+                        <a href="#" class="btn-solid-reg">Contactar</a>
+                    </div>
+                </div>
+                <div class="card col-11 col-md-5 col-lg-3 terreno">
+                    <img src="Propiedades/Prop2/image2.jpg" class="card-img-top" alt="Casa 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Terreno 1</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Dirección 342</li>
+                            <li class="list-group-item">$$$$$$$</li>
+                        </ul>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, eligendi blanditiis necessitatibus animi excepturi cupiditate.</p>
+                        <a href="#" class="btn-solid-reg">Contactar</a>
+                    </div>
+                </div>
+                <div class="card col-11 col-md-5 col-lg-3">
+                    <img src="Propiedades/Prop2/image2.jpg" class="card-img-top" alt="Casa 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Casa 1</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Dirección 342</li>
+                            <li class="list-group-item">$$$$$$$</li>
+                        </ul>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, eligendi blanditiis necessitatibus animi excepturi cupiditate.</p>
+                        <a href="#" class="btn-solid-reg">Contactar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- State -->
+
+    <!-- Projects -->
+	<section id="projects" class="filter bg-gray">
+		<div class="container">
             <div class="row">
-                <div class="col-xl-10 offset-xl-1 comming-soon">
-                    <h2 class="mb-3">¡Próximamente!</h2>
+                <div class="col-lg-12">
+                    <h2 class="h2-heading">Nuestras mejores propiedades</h2>
+                </div> 
+            </div> 
+            <div class="row">
+                <div class="col-lg-12">
+                    
+                    <!-- Filter -->
+                    <div class="button-group filters-button-group">
+                        <button class="button is-checked" data-filter="*">TODAS</button>
+                        <button class="button" data-filter=".casa">Casas</button>
+                        <button class="button" data-filter=".departamento">Departamentos</button>
+                        <button class="button" data-filter=".oficina">Oficinas</button>
+                    </div> <!-- end of button group -->
+                    <div class="grid">
+                        <div class="element-item casa">
+                            <!-- <a href="articulo.html"> -->
+                                <img class="img-fluid" src="images/project-1.jpg" alt="alternative">
+                                <h4>Casa remodelada en Satélite Naucalpan</h4>
+                                <p>Cerrada de Acuario 25 Jardines de Satélite, Naucalpan.</p>
+                                <p>$8,500,000</p>
+                                <p>Hermosa casa completamente remodelada, con acabados modernos, fina madera en closet y puertas, en fraccionamiento con seguridad, calle cerrada con excelente ubicación muy cerca del Colegio Cristóbal Colón, Plaza Satélite y La Cuspide.</p>
+                                <a href="#" class="btn-solid-reg">Contactar</a>
+                            <!-- </a> -->
+                        </div>
+                        <div class="element-item departamento">
+                            <img class="img-fluid" src="images/project-2.jpg" alt="alternative">
+                            <h4>Departamento remodelado en Calacoaya</h4>
+                            <p>Av. Camino Real de Calacoaya #69 "A" Colonia Calacoaya Departamento J-301, Atizapán de Zaragoza.</p>
+                            <p>$3,900,000</p>
+                            <p>Hermoso departamento remodelado en Calacoaya, frente a Club de Golf, con 2 estacionamientos, 3 recámaras, Elevador, 3 baños completos, Cuarto de servicio, Doble persiana (en cada cuarto), Sala comedor.</p>
+                            <a href="#" class="btn-solid-reg">Contactar</a>
+                        </div>
+                        <div class="element-item departamento">
+                            <img class="img-fluid" src="images/project-3.jpg" alt="alternative">
+                            <h4>Excelente Depto en venta, en Insurgentes Mixcoac</h4>
+                            <p>Campana 20, Insurgentes Mixcoac, Benito Juárez, 03920 Ciudad de México, CDMX</p>
+                            <p>$4,980,000</p>
+                            <p>Departamento en PLANTA BAJA, ubicado en Insurgentes Mixcoac. Son 3 torres, cada torre cuenta con 3 niveles , y 8 departamentos por piso. Excelente mantenimiento, , acogedor e iluminado, cuenta con dos recámaras. La principal con baño completo, otro baño completo para áreas comunes , sala, comedor y cocina en espacios abiertos, área para lavadora.</p>
+                            <a href="#" class="btn-solid-reg">Contactar</a>
+                        </div>
+                        <div class="element-item departamento">
+                            <img class="img-fluid" src="images/project-4.jpg" alt="alternative">
+                            <h4>Jardines de Atizapán (Palmerales Atizapán)</h4>
+                            <p>Jardines de Atizapán, Emiliano Zapata 37</p>
+                            <p>$1,900,000</p>
+                            <p>2 recamaras principal con baño, 2 baños completos, Sala - comedor, Cocina equipada, Barra-desayunador, Área de lavado, Lámparas y persiana incluidas, 1 cajón de estacionamiento, Áreas verdes
+                                70m2, Vigilancia, estacionamiento para visitas.</p>
+                            <a href="#" class="btn-solid-reg">Contactar</a>
+                        </div>
+                        <div class="element-item casa">
+                            <img class="img-fluid" src="images/project-5.jpg" alt="alternative">
+                            <h4>Casa en Neza</h4>
+                            <p>Dirección Av Yolo 322</p>
+                            <p>$$$$$$$$$$$$</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, magni nobis repudiandae recusandae quis, placeat amet esse veritatis quibusdam incidunt in!</p>
+                            <a href="#" class="btn-solid-reg">Contactar</a>
+                        </div>
+                        <div class="element-item casa">
+                            <img class="img-fluid" src="images/project-6.jpg" alt="alternative">
+                            <h4>Las Alamedas</h4>
+                            <p>Dirección Av Yolo 322</p>
+                            <p>$$$$$$$$$$$$</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, magni nobis repudiandae recusandae quis, placeat amet esse veritatis quibusdam incidunt in!</p>
+                            <a href="#" class="btn-solid-reg">Contactar</a>
+                        </div>
+                        <div class="element-item oficina">
+                            <img class="img-fluid" src="images/project-7.jpg" alt="alternative">
+                            <h4>Valle Dorado</h4>
+                            <p>Dirección Av Yolo 322</p>
+                            <p>$$$$$$$$$$$$</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, magni nobis repudiandae recusandae quis, placeat amet esse veritatis quibusdam incidunt in!</p>
+                            <a href="#" class="btn-solid-reg">Contactar</a>
+                        </div>
+                        <div class="element-item oficina">
+                            <img class="img-fluid" src="images/project-8.jpg" alt="alternative">
+                            <h4><strong>Depa 1</strong> - Lorem ipsum dolor sit.</h4>
+                            <p>Dirección Av Yolo 322</p>
+                            <p>$$$$$$$$$$$$</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, magni nobis repudiandae recusandae quis, placeat amet esse veritatis quibusdam incidunt in!</p>
+                            <a href="#" class="btn-solid-reg">Contactar</a>
+                        </div>
+                        <div class="element-item oficina">
+                            <img class="img-fluid" src="images/project-9.jpg" alt="alternative">
+                            <h4><strong>Depa 1</strong> - Lorem ipsum dolor sit.</h4>
+                            <p>Dirección Av Yolo 322</p>
+                            <p>$$$$$$$$$$$$</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, magni nobis repudiandae recusandae quis, placeat amet esse veritatis quibusdam incidunt in!</p>
+                            <a href="#" class="btn-solid-reg">Contactar</a>
+                        </div>
+                    </div> <!-- end of grid -->
+                    <!-- end of filter -->
+                    
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </section> <!-- end of ex-basic-1 -->
-    <!-- end of basic -->
+		</div> <!-- end of container -->
+    </section> <!-- end of filter -->
+    <!-- end of projects -->
 
 
     <!-- Footer -->
