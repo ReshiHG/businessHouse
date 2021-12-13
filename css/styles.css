@@ -803,7 +803,7 @@ a:hover {
 
 .filter .grid {
 	margin-right: auto;
-	max-width: 351px;
+	/* max-width: 351px; */
 	margin-left: auto;
 }
 
