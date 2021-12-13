@@ -267,6 +267,7 @@ $formAdviceBtn.addEventListener("click", () => {
 
 const 	$formPopUp = document.querySelector("#form-popup"),
 		$propiedadBtn = document.querySelectorAll(".propiedadBtn"),
+		$formMensaje = document.querySelector("#formMensaje"),
 		$formPropiedad = document.querySelector("#formPropiedad"),
 		$formExit = document.querySelector("#form-exit");
 
@@ -276,11 +277,12 @@ $formExit.addEventListener("click", function (){
 });
 
 $propiedadBtn.forEach(el => {
-	// console.log(e);
+	// console.log(el);
 	el.addEventListener("click", function () {
 		$formPopUp.classList.add("show");
 		$formPopUp.classList.remove("hide");
 		$formPropiedad.value = `${el.dataset.propiedad}`;
+		$formMensaje.value = `Hola, me gustaría recibir más información sobre "${el.dataset.propiedad}", gracias.`;
 	});
 });
 

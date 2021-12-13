@@ -58,8 +58,8 @@ Colors:
 @font-face {
 	font-family: CaviarDreams;
 	src: url(../webfonts/CaviarDreams.ttf);
-	font-style: normal;
-	font-weight: normal;
+	/* font-style: normal;
+	font-weight: normal; */
 }
 
 @font-face {
@@ -1305,6 +1305,18 @@ a:hover {
 	text-align: center;
 	border: solid 2px var(--buttons-icons);
 	position: relative;
+	overflow: auto;
+	max-height: 100vh;
+}
+
+#form-popup .form-control-input, .form-control-textarea{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+}
+
+#form-popup .form-control-textarea{
+    height: 6rem;
 }
 
 #form-popup .fa-stack-2x{
