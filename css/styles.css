@@ -1279,6 +1279,11 @@ a:hover {
 	cursor: pointer;
 }
 
+
+#projects .img-fluid:hover{
+	box-shadow: 1px 1px 10px 1px gray;
+}
+
 #projects .btn-solid-reg{
 	width: 100%;
 }
