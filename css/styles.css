@@ -1275,6 +1275,10 @@ a:hover {
 	text-align: left;
 }
 
+#projects .img-fluid{
+	cursor: pointer;
+}
+
 #projects .btn-solid-reg{
 	width: 100%;
 }
@@ -1292,6 +1296,85 @@ a:hover {
 
 #projects .info-card{
 	text-align: justify;
+}
+
+/******************************/
+/*        Lightbox Gallery       */
+/******************************/
+
+/* .LightBoxGallery{
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index: 1100;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.LB-gallery-container{
+	position: relative;
+	max-height: 80vh;
+	max-width: 90vw;
+	height: auto;
+	width: 100%;
+}
+
+.LB-gallery-container span{
+	position: absolute;
+	font-size: 3rem;
+	color: #f9f9f9;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	padding: 0 1rem;
+	top: 0;
+
+}
+
+.LB-gallery-container .btn-left{
+	left: 0;
+}
+
+.LB-gallery-container .btn-right{
+	right: 0;
+}
+
+.LB-gallery-item{
+	max-height: 80vh;
+	max-width: 90vw;
+	height: auto;
+	width: 100%;
+}
+
+.LB-gallery-item img{
+	width: 100%;
+}
+
+.LB-gallery-item figcaption{
+	text-align: center;
+	color: var(--backgroud);
+	background-color: var(--heading-text);
+	padding: 0.5rem;
+} */
+
+.LightBoxGallery .modal-content{
+	background-color: transparent;
+}
+
+.LB-gallery-item{
+	margin-bottom: 0;
+}
+
+.LB-gallery-item figcaption{
+	text-align: center;
+	color: var(--backgroud);
+	background-color: var(--heading-text);
+	padding: 0.5rem;
 }
 
 
