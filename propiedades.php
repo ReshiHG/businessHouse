@@ -1,130 +1,6 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <!-- Google Tag Manager -->
-    <script>
-        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-546S4BW');
-    </script>
-    <!-- End Google Tag Manager -->
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="En Business House somos una agencia de marketing inmobiliario que ofrece servicios integrales para que puedas comprar o vender propiedades de manera eficaz">
-    <meta name="author" content="Richy">
-
-    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
-	<meta property="og:site_name" content="Business House" /> <!-- website name -->
-	<meta property="og:site" content="" /> <!-- website link -->
-	<meta property="og:title" content="Business House | Propiedades"/> <!-- title shown in the actual shared post -->
-	<meta property="og:description" content="En Business House somos una agencia de marketing inmobiliario que ofrece servicios integrales para que puedas comprar o vender propiedades de manera eficaz" /> <!-- description shown in the actual shared post -->
-	<meta property="og:image" content="images/BH_logo_normal.jpg" /> <!-- image link, make sure it's jpg -->
-	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
-	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
-
-    <!-- Webpage Title -->
-    <title>Business House | Propiedades</title>
-    
-    <!-- Styles -->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/fontawesome-all.min.css" rel="stylesheet">
-    <link href="css/swiper.css" rel="stylesheet">
-	<link href="css/styles.css" rel="stylesheet">
-	
-	<!-- Favicon  -->
-    <link rel="icon" href="images/favicon.png">
-</head>
-<body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-546S4BW" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-    </noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    
-    <!-- Navigation -->
-    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light top-nav-no-collapse" aria-label="Main navigation">
-        <div class="container">
-
-            <!-- Image Logo -->
-            <!-- Dark logo -->
-            <!-- <a id="dark-logo" class="navbar-brand logo-image show" href="index.html"><img src="images/BH_logo_blanco.svg" alt="Logo Business House"></a>  -->
-            <!-- Light logo -->
-            <a id="light-logo" class="navbar-brand logo-image show" href="index.html"><img src="images/BH_logo_normal.svg" alt="Logo Business House"></a> 
-
-            <!-- Text Logo - Use this if you don't have a graphic logo -->
-            <!-- <a class="navbar-brand logo-text" href="index.html">Desi</a> -->
-
-            <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav ms-auto navbar-nav-scroll">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index#header">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index#services">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="propiedades">Propiedades</a>
-                    </li>
-                    <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Nosotros</a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                            <li><a class="dropdown-item" href="nosotros.html">¿Quiénes somos?</a></li>
-                            <li><div class="dropdown-divider"></div></li>
-                            <li><a class="dropdown-item" href="articulo.html">Artículo</a></li>
-                            <li><div class="dropdown-divider"></div></li>
-                            <li><a class="dropdown-item" href="terminos.html">Términos y condiciones</a></li>
-                            <li><div class="dropdown-divider"></div></li>
-                            <li><a class="dropdown-item" href="privacidad.html">Política de privacidad</a></li>
-                        </ul>
-                    </li> -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="nosotros">¿Quiénes somos?</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacto">Contacto</a>
-                    </li>
-                </ul>
-                <div class="nav-item social-icons">
-                    <span class="fa-stack">
-                        <a target="_blank" href="https://www.facebook.com/BusinessHouseMkt">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-facebook-f fa-stack-1x"></i>
-                        </a>
-                    </span>
-                    <span class="fa-stack">
-                        <a target="_blank" href="https://wa.link/bcbqn2">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-whatsapp fa-stack-1x"></i>
-                        </a>
-                    </span>
-                    <span class="fa-stack">
-                        <a target="_blank" href="https://www.instagram.com/businesshousem/">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-instagram fa-stack-1x"></i>
-                        </a>
-                    </span>
-                    <span class="fa-stack">
-                        <a target="_blank" href="https://www.linkedin.com/company/business-house-mkt">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-linkedin fa-stack-1x"></i>
-                        </a>
-                    </span>
-                </div>
-            </div> <!-- end of navbar-collapse -->
-        </div> <!-- end of container -->
-    </nav> <!-- end of navbar -->
-    <!-- end of navigation -->
+<?php 
+	include_once('Templates/header.php');
+?>	
 
 
     <!-- Header -->
@@ -145,7 +21,7 @@
         <div class="container">
             <div class="cards-container">
                 <div class="card col-11 col-md-5 col-lg-3 casa">
-                    <img src="Propiedades/Prop2/image2.jpg" class="card-img-top" alt="Casa 1">
+                    <img src="PropiedadesIMG/Prop2/image2.jpg" class="card-img-top" alt="Casa 1">
                     <div class="card-body">
                         <h5 class="card-title">Casa 1</h5>
                         <ul class="list-group list-group-flush">
@@ -157,7 +33,7 @@
                     </div>
                 </div>
                 <div class="card col-11 col-md-5 col-lg-3 departamento">
-                    <img src="Propiedades/Prop2/image2.jpg" class="card-img-top" alt="Casa 1">
+                    <img src="PropiedadesIMG/Prop2/image2.jpg" class="card-img-top" alt="Casa 1">
                     <div class="card-body">
                         <h5 class="card-title">Depa 1</h5>
                         <ul class="list-group list-group-flush">
@@ -169,7 +45,7 @@
                     </div>
                 </div>
                 <div class="card col-11 col-md-5 col-lg-3 terreno">
-                    <img src="Propiedades/Prop2/image2.jpg" class="card-img-top" alt="Casa 1">
+                    <img src="PropiedadesIMG/Prop2/image2.jpg" class="card-img-top" alt="Casa 1">
                     <div class="card-body">
                         <h5 class="card-title">Terreno 1</h5>
                         <ul class="list-group list-group-flush">
@@ -181,7 +57,7 @@
                     </div>
                 </div>
                 <div class="card col-11 col-md-5 col-lg-3">
-                    <img src="Propiedades/Prop2/image2.jpg" class="card-img-top" alt="Casa 1">
+                    <img src="PropiedadesIMG/Prop2/image2.jpg" class="card-img-top" alt="Casa 1">
                     <div class="card-body">
                         <h5 class="card-title">Casa 1</h5>
                         <ul class="list-group list-group-flush">
@@ -220,7 +96,7 @@
                     <div class="grid">
                         <div class="element-item casa">
                             <!-- <a href="articulo.html"> -->
-                                <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#CasaRemodeladaEnSateliteNaucalpan" src="Propiedades/Casa remodelada Satelite Naucalpan (Acuario)/card-img.jpg" alt="Foto Casa remodelada en Satélite Naucalpan">
+                                <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#CasaRemodeladaEnSateliteNaucalpan" src="PropiedadesIMG/Casa remodelada Satelite Naucalpan (Acuario)/card-img.jpg" alt="Foto Casa remodelada en Satélite Naucalpan">
                                 <h4>Casa remodelada en Satélite Naucalpan</h4>
                                 <p class="p-small direccion-card">Cerrada de Acuario 25 Jardines de Satélite, Naucalpan.</p>
                                 <p class="precio-card">$8,500,000</p>
@@ -229,7 +105,7 @@
                             <!-- </a> -->
                         </div>
                         <div class="element-item departamento">
-                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#DepartamentoRemodeladoEnCalacoaya" src="Propiedades/Departamento remodelado Calacoaya (Ale)/card-img.jpg" alt="Foto Departamento remodelado en Calacoaya">
+                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#DepartamentoRemodeladoEnCalacoaya" src="PropiedadesIMG/Departamento remodelado Calacoaya (Ale)/card-img.jpg" alt="Foto Departamento remodelado en Calacoaya">
                             <h4>Departamento remodelado en Calacoaya</h4>
                             <p class="p-small direccion-card">Av. Camino Real de Calacoaya #69 "A" Colonia Calacoaya Departamento J-301, Atizapán de Zaragoza.</p>
                             <p class="precio-card">$3,900,000</p>
@@ -237,23 +113,15 @@
                             <button class="btn-solid-reg propiedadBtn" data-propiedad="Departamento remodelado en Calacoaya">Contactar</button>
                         </div>
                         <div class="element-item departamento">
-                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#ExcelenteDepartamentoEnVentaEnInsurgentesMixcoac" src="Propiedades/Departamento Mixcoac/card-img.jpg" alt="Foto Excelente Departamento en venta, en Insurgentes Mixcoac">
+                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#ExcelenteDepartamentoEnVentaEnInsurgentesMixcoac" src="PropiedadesIMG/Departamento Mixcoac/card-img.jpg" alt="Foto Excelente Departamento en venta, en Insurgentes Mixcoac">
                             <h4>Excelente Departamento en venta, en Insurgentes Mixcoac</h4>
                             <p class="p-small direccion-card">Campana 20, Insurgentes Mixcoac, Benito Juárez, 03920 Ciudad de México, CDMX</p>
                             <p class="precio-card">$4,980,000</p>
                             <p class="info-card">Departamento en PLANTA BAJA, ubicado en Insurgentes Mixcoac. Son 3 torres, cada torre cuenta con 3 niveles , y 8 departamentos por piso. Excelente mantenimiento, acogedor e iluminado, cuenta con dos recámaras. La principal con baño completo, otro baño completo para áreas comunes, sala, comedor y cocina en espacios abiertos, área para lavadora.</p>
                             <button class="btn-solid-reg propiedadBtn" data-propiedad="Excelente Departamento en venta, en Insurgentes Mixcoac">Contactar</button>
                         </div>
-                        <div class="element-item departamento">
-                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#DepartamentoEnPalmeralesAtizapán" src="Propiedades/Departamento Palmerales Atizapán/card-img.jpg" alt="Fotos Departamento en Palmerales Atizapán">
-                            <h4>Departamento en Palmerales Atizapán</h4>
-                            <p class="p-small direccion-card">Jardines de Atizapán, Emiliano Zapata 37</p>
-                            <p class="precio-card">$1,900,000</p>
-                            <p class="info-card">2 recámaras principal con baño, 2 baños completos, sala-comedor, cocina equipada, barra-desayunador, área de lavado, lámparas y persiana incluidas, 1 cajón de estacionamiento, áreas verdes 70 m2, vigilancia, estacionamiento para visitas</p>
-                            <button class="btn-solid-reg propiedadBtn" data-propiedad="Departamento en Palmerales Atizapán">Contactar</button>
-                        </div>
                         <div class="element-item casa">
-                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#CasaEnLasAlamedas" src="Propiedades/Casa Las Alamedas/card-img.jpg" alt="Foto Tortolas # 44 Fraccionamiento Las Alamedas, Atizapán de Zaragoza">
+                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#CasaEnLasAlamedas" src="PropiedadesIMG/Casa Las Alamedas/card-img.jpg" alt="Foto Tortolas # 44 Fraccionamiento Las Alamedas, Atizapán de Zaragoza">
                             <h4>Casa en Las Alamedas</h4>
                             <p class="p-small direccion-card">Tortolas # 44 Fraccionamiento Las Alamedas, Atizapán de Zaragoza</p>
                             <p class="precio-card">$6,200,000</p>
@@ -261,7 +129,7 @@
                             <button class="btn-solid-reg propiedadBtn" data-propiedad="Casa en Las Alamedas">Contactar</button>
                         </div>
                         <div class="element-item casa">
-                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#CasaEnValleDorado" src="Propiedades/Casa en Valle Dorado/card-img.jpg" alt="Fotos Casa en Valle Dorado">
+                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#CasaEnValleDorado" src="PropiedadesIMG/Casa en Valle Dorado/card-img.jpg" alt="Fotos Casa en Valle Dorado">
                             <h4>Casa en Valle Dorado</h4>
                             <p class="p-small direccion-card">Boulevard Tulpan #23, Fracc. Valle Dorado, Tlalnepantla de Baz.</p>
                             <p class="precio-card">$4,300,000</p>
@@ -269,7 +137,7 @@
                             <button class="btn-solid-reg propiedadBtn" data-propiedad="Casa en Valle Dorado">Contactar</button>
                         </div>
                         <div class="element-item casa">
-                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#CasaEnValleEscondido" src="Propiedades/Casa en Valle Escondido/card-img.jpg" alt="Foto Casa en Valle Escondido">
+                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#CasaEnValleEscondido" src="PropiedadesIMG/Casa en Valle Escondido/card-img.jpg" alt="Foto Casa en Valle Escondido">
                             <h4>Casa en Valle Escondido</h4>
                             <p class="p-small direccion-card">Cto. Valle Hermoso 65 Loma de Vallescondido Atizapán</p>
                             <p class="precio-card">$10,990,000.00</p>
@@ -277,7 +145,7 @@
                             <button class="btn-solid-reg propiedadBtn" data-propiedad="Casa en Valle Escondido">Contactar</button>
                         </div>
                         <div class="element-item departamento">
-                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#DepartamentoSantaFe" src="Propiedades/Santa Fé (Departamento)/card-img.jpg" alt="Foto Departamento Santa Fe">
+                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#DepartamentoSantaFe" src="PropiedadesIMG/Santa Fé (Departamento)/card-img.jpg" alt="Foto Departamento Santa Fe">
                             <h4>Departamento Santa Fe</h4>
                             <p class="p-small direccion-card">Colonia Cedros a 10 min de Santa Fe</p>
                             <p class="precio-card">$6,500,000</p>
@@ -285,7 +153,7 @@
                             <button class="btn-solid-reg propiedadBtn" data-propiedad="Departamento Santa Fe">Contactar</button>
                         </div>
                         <div class="element-item departamento">
-                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#DepartamentoBerriozabal" src="Propiedades/Berriozabal/card-img.jpg" alt="Foto Departamento Beriozábal">
+                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#DepartamentoBerriozabal" src="PropiedadesIMG/Berriozabal/card-img.jpg" alt="Foto Departamento Beriozábal">
                             <h4>Departamento Beriozábal</h4>
                             <p class="p-small direccion-card">Cerrada de Berriozabal No. 11, Colonia Tlalnepantla Centro, Tlalnepantla de Baz, Edo. Méx, C.P. 54000</p>
                             <p class="precio-card">$3,224,000.00 </p>
@@ -293,7 +161,7 @@
                             <button class="btn-solid-reg propiedadBtn" data-propiedad="Departamento Beriozábal">Contactar</button>
                         </div>
                         <div class="element-item terreno">
-                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#TerrenoHaciendaLaConcepción" src="Propiedades/Hacienda L C/card-img.jpg" alt="Foto Terreno Hacienda La Concepción">
+                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#TerrenoHaciendaLaConcepción" src="PropiedadesIMG/Hacienda L C/card-img.jpg" alt="Foto Terreno Hacienda La Concepción">
                             <h4>Terreno Hacienda La Concepción</h4>
                             <p class="p-small direccion-card">Carretera Tepotzotlán a Arcos del Sitio Km. 12.5 Hacienda la Concepción, C.P. 54657</p>
                             <p class="precio-card">Desde $900,000</p>
@@ -301,7 +169,7 @@
                             <button class="btn-solid-reg propiedadBtn" data-propiedad="Terreno Hacienda La Concepción">Contactar</button>
                         </div>
                         <div class="element-item departamento">
-                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#DepartamentoiKANI" src="Propiedades/iKANI/card-img.jpg" alt="Foto Departamento Ikani">
+                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#DepartamentoiKANI" src="PropiedadesIMG/iKANI/card-img.jpg" alt="Foto Departamento Ikani">
                             <h4>Departamento Ikani</h4>
                             <p class="p-small direccion-card">Lago Patzcuaro 636 Cumbres del Lago 76230 Juriquilla, Qro. México</p>
                             <p class="precio-card">Desde $4,000,000</p>
@@ -309,7 +177,7 @@
                             <button class="btn-solid-reg propiedadBtn" data-propiedad="Departamento Ikani">Contactar</button>
                         </div>
                         <div class="element-item terreno">
-                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#terrenosNusKah" src="Propiedades/Nus Kah/card-img.jpg" alt="Foto terrenos Nus Kah">
+                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#terrenosNusKah" src="PropiedadesIMG/Nus Kah/card-img.jpg" alt="Foto terrenos Nus Kah">
                             <h4>Terrenos Nus kah</h4>
                             <p class="p-small direccion-card">Progreso, 97323 Nus Káh, Yuc.</p>
                             <p class="precio-card">$704,000.00</p>
@@ -317,7 +185,7 @@
                             <button class="btn-solid-reg propiedadBtn" data-propiedad="Terrenos Nus Kah">Contactar</button>
                         </div>
                         <div class="element-item departamento">
-                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#depaRinconadaValleDorado" src="Propiedades/Rinconada Valle Dorado/card-img.jpg" alt="Foto Departamento Rinconada Valle Dorado">
+                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#depaRinconadaValleDorado" src="PropiedadesIMG/Rinconada Valle Dorado/card-img.jpg" alt="Foto Departamento Rinconada Valle Dorado">
                             <h4>Departamento Rinconada Valle Dorado</h4>
                             <p class="p-small direccion-card">Fraccionamiento el dorado, 54020 Tlalnepantla de Baz, Méx., México</p>
                             <p class="precio-card">Desde $2,800,000</p>
@@ -325,7 +193,7 @@
                             <button class="btn-solid-reg propiedadBtn" data-propiedad="Departamento Rinconada Valle Dorado">Contactar</button>
                         </div>
                         <div class="element-item casa">
-                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#casaVivace" src="Propiedades/Vivace Casa/card-img.jpg" alt="Foto Casa Vivace">
+                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#casaVivace" src="PropiedadesIMG/Vivace Casa/card-img.jpg" alt="Foto Casa Vivace">
                             <h4>Casa Vivace</h4>
                             <p class="p-small direccion-card">Calle Jacarandas 6, Jardines de Atizapán, Ciudad López Materos, Edo. Mex.</p>
                             <p class="precio-card">Desde $5,250,000</p>
@@ -333,7 +201,7 @@
                             <button class="btn-solid-reg propiedadBtn" data-propiedad="Casa Vivace">Contactar</button>
                         </div>
                         <div class="element-item departamento">
-                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#departamentoVivace" src="Propiedades/Vivace Depto/card-img.jpg" alt="Foto Departamento Vivace">
+                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#departamentoVivace" src="PropiedadesIMG/Vivace Depto/card-img.jpg" alt="Foto Departamento Vivace">
                             <h4>Departamento Vivace</h4>
                             <p class="p-small direccion-card">Calle Jacarandas 6, Jardines de Atizapán, Ciudad López Materos, Edo. Mex.</p>
                             <p class="precio-card">Desde $3,231,000</p>
@@ -341,7 +209,7 @@
                             <button class="btn-solid-reg propiedadBtn" data-propiedad="Departamento Vivace">Contactar</button>
                         </div>
                         <div class="element-item terreno">
-                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#terrenoLaReserva" src="Propiedades/La Reserva/card-img.jpg" alt="Foto La Reserva">
+                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#terrenoLaReserva" src="PropiedadesIMG/La Reserva/card-img.jpg" alt="Foto La Reserva">
                             <h4>Terreno La Reserva</h4>
                             <p class="p-small direccion-card">km 7.8, Carretera Mérida - Progreso, Mérida - Chicxulub, 97342 Mérida, Yuc.</p>
                             <p class="precio-card">Desde $3,160 el m2</p>
@@ -349,7 +217,7 @@
                             <button class="btn-solid-reg propiedadBtn" data-propiedad="Terreno La Reserva">Contactar</button>
                         </div>
                         <div class="element-item terreno">
-                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#TerrenoElFaroDeLosCisnes" src="Propiedades/Terreno El faro de los cisnes/Principal.jpeg" alt="Foto El faro de los cisnes">
+                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#TerrenoElFaroDeLosCisnes" src="PropiedadesIMG/Terreno El faro de los cisnes/Principal.jpeg" alt="Foto El faro de los cisnes">
                             <h4>Terreno El Faro de los Cisnes</h4>
                             <p class="p-small direccion-card">Carretera Estatal 413 Santa Bárbara-Coroneo, Km. 11.2 Santa Bárbara, Carr. Huimilpan-Coroneo, 76900 Santa Barbara, Qro.</p>
                             <p class="precio-card">Desde $2,760 el m2</p>
@@ -371,73 +239,73 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <figure class="LB-gallery-item">
-                                    <img src="Propiedades/Casa remodelada Satelite Naucalpan (Acuario)/principal.jpeg" alt="Fachada" class="d-block w-100">
+                                    <img src="PropiedadesIMG/Casa remodelada Satelite Naucalpan (Acuario)/principal.jpeg" alt="Fachada" class="d-block w-100">
                                     <figcaption>Fachada</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa remodelada Satelite Naucalpan (Acuario)/Sala_vista_completa.jpeg" alt="Sala" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa remodelada Satelite Naucalpan (Acuario)/Sala_vista_completa.jpeg" alt="Sala" class="d-block w-100">
                                     <figcaption>Sala</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa remodelada Satelite Naucalpan (Acuario)/Sala_1.jpeg" alt="Sala" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa remodelada Satelite Naucalpan (Acuario)/Sala_1.jpeg" alt="Sala" class="d-block w-100">
                                     <figcaption>Sala</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa remodelada Satelite Naucalpan (Acuario)/Pasillo_interior.jpeg" alt="Pasillo" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa remodelada Satelite Naucalpan (Acuario)/Pasillo_interior.jpeg" alt="Pasillo" class="d-block w-100">
                                     <figcaption>Pasillo</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa remodelada Satelite Naucalpan (Acuario)/Pasillo_interior_2.jpeg" alt="Pasillo" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa remodelada Satelite Naucalpan (Acuario)/Pasillo_interior_2.jpeg" alt="Pasillo" class="d-block w-100">
                                     <figcaption>Pasillo</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa remodelada Satelite Naucalpan (Acuario)/Comedor_1.jpeg" alt="Comedor" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa remodelada Satelite Naucalpan (Acuario)/Comedor_1.jpeg" alt="Comedor" class="d-block w-100">
                                     <figcaption>Comedor</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa remodelada Satelite Naucalpan (Acuario)/Comedor_lejos.jpeg" alt="Comedor" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa remodelada Satelite Naucalpan (Acuario)/Comedor_lejos.jpeg" alt="Comedor" class="d-block w-100">
                                     <figcaption>Comedor</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa remodelada Satelite Naucalpan (Acuario)/Cocina_integral.jpeg" alt="Cocina" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa remodelada Satelite Naucalpan (Acuario)/Cocina_integral.jpeg" alt="Cocina" class="d-block w-100">
                                     <figcaption>Cocina</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa remodelada Satelite Naucalpan (Acuario)/Cocina_espaciosa.jpeg" alt="Cocina" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa remodelada Satelite Naucalpan (Acuario)/Cocina_espaciosa.jpeg" alt="Cocina" class="d-block w-100">
                                     <figcaption>Cocina</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa remodelada Satelite Naucalpan (Acuario)/Baño_jacuzzi.jpeg" alt="Baño" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa remodelada Satelite Naucalpan (Acuario)/Baño_jacuzzi.jpeg" alt="Baño" class="d-block w-100">
                                     <figcaption>Baño</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa remodelada Satelite Naucalpan (Acuario)/Baño_completo_1.jpeg" alt="Baño" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa remodelada Satelite Naucalpan (Acuario)/Baño_completo_1.jpeg" alt="Baño" class="d-block w-100">
                                     <figcaption>Baño</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa remodelada Satelite Naucalpan (Acuario)/Baño_completo_2.jpeg" alt="Baño" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa remodelada Satelite Naucalpan (Acuario)/Baño_completo_2.jpeg" alt="Baño" class="d-block w-100">
                                     <figcaption>Baño</figcaption>
                                 </figure>
                             </div>
@@ -462,74 +330,74 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <figure class="LB-gallery-item">
-                                    <img src="Propiedades/Departamento remodelado Calacoaya (Ale)/principal.jpeg" alt="Sala" class="d-block w-100">
+                                    <img src="PropiedadesIMG/Departamento remodelado Calacoaya (Ale)/principal.jpeg" alt="Sala" class="d-block w-100">
                                     <figcaption>Sala</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Departamento remodelado Calacoaya (Ale)/Sala_1.jpeg" alt="Sala" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Departamento remodelado Calacoaya (Ale)/Sala_1.jpeg" alt="Sala" class="d-block w-100">
                                     <figcaption>Sala</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Departamento remodelado Calacoaya (Ale)/Puerta_entrada.jpeg" alt="Entrada" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Departamento remodelado Calacoaya (Ale)/Puerta_entrada.jpeg" alt="Entrada" class="d-block w-100">
                                     <figcaption>Entrada</figcaption>
                                 </figure>
                             </div>
 
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Departamento remodelado Calacoaya (Ale)/Dormitorio_pantalla.jpeg" alt="Dormitorio" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Departamento remodelado Calacoaya (Ale)/Dormitorio_pantalla.jpeg" alt="Dormitorio" class="d-block w-100">
                                     <figcaption>Dormitorio</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Departamento remodelado Calacoaya (Ale)/Dormitorio_closet.jpeg" alt="Dormitorio" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Departamento remodelado Calacoaya (Ale)/Dormitorio_closet.jpeg" alt="Dormitorio" class="d-block w-100">
                                     <figcaption>Dormitorio</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Departamento remodelado Calacoaya (Ale)/Cocina_fregadero.jpeg" alt="Cocina" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Departamento remodelado Calacoaya (Ale)/Cocina_fregadero.jpeg" alt="Cocina" class="d-block w-100">
                                     <figcaption>Cocina</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Departamento remodelado Calacoaya (Ale)/Pasillo.jpeg" alt="Pasillo" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Departamento remodelado Calacoaya (Ale)/Pasillo.jpeg" alt="Pasillo" class="d-block w-100">
                                     <figcaption>Pasillo</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Departamento remodelado Calacoaya (Ale)/Piscina.jpeg" alt="Piscina" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Departamento remodelado Calacoaya (Ale)/Piscina.jpeg" alt="Piscina" class="d-block w-100">
                                     <figcaption>Piscina</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Departamento remodelado Calacoaya (Ale)/Estacionamiento_1.jpeg" alt="Estacionamiento" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Departamento remodelado Calacoaya (Ale)/Estacionamiento_1.jpeg" alt="Estacionamiento" class="d-block w-100">
                                     <figcaption>Estacionamiento</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img src="Propiedades/Departamento remodelado Calacoaya (Ale)/Gimnasio_1.jpeg" alt="Gimnasio" class="d-block w-100">
+                                    <img src="PropiedadesIMG/Departamento remodelado Calacoaya (Ale)/Gimnasio_1.jpeg" alt="Gimnasio" class="d-block w-100">
                                     <figcaption>Gimnasio</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Departamento remodelado Calacoaya (Ale)/Baño_completo.jpeg" alt="Baño" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Departamento remodelado Calacoaya (Ale)/Baño_completo.jpeg" alt="Baño" class="d-block w-100">
                                     <figcaption>Baño</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Departamento remodelado Calacoaya (Ale)/Regadera.jpeg" alt="Baño" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Departamento remodelado Calacoaya (Ale)/Regadera.jpeg" alt="Baño" class="d-block w-100">
                                     <figcaption>Baño</figcaption>
                                 </figure>
                             </div>
@@ -554,80 +422,80 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <figure class="LB-gallery-item">
-                                    <img src="Propiedades/Departamento Mixcoac/principal.jpg" alt="Fachada" class="d-block w-100">
+                                    <img src="PropiedadesIMG/Departamento Mixcoac/principal.jpg" alt="Fachada" class="d-block w-100">
                                     <figcaption>Fachada</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Departamento Mixcoac/Sala y comedor.jpg" alt="Sala y comedor" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Departamento Mixcoac/Sala y comedor.jpg" alt="Sala y comedor" class="d-block w-100">
                                     <figcaption>Sala y comedor</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Departamento Mixcoac/Estancia.jpg" alt="Estancia" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Departamento Mixcoac/Estancia.jpg" alt="Estancia" class="d-block w-100">
                                     <figcaption>Estancia</figcaption>
                                 </figure>
                             </div>
 
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Departamento Mixcoac/Cocina_integral.jpg" alt="Cocina integral" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Departamento Mixcoac/Cocina_integral.jpg" alt="Cocina integral" class="d-block w-100">
                                     <figcaption>Cocina Integral</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Departamento Mixcoac/Terraza con acceso a sala, y a ambas recamaras.jpg" alt="Terraza" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Departamento Mixcoac/Terraza con acceso a sala, y a ambas recamaras.jpg" alt="Terraza" class="d-block w-100">
                                     <figcaption>Terraza</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Departamento Mixcoac/Recámara secundaria.jpg" alt="Recámara" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Departamento Mixcoac/Recámara secundaria.jpg" alt="Recámara" class="d-block w-100">
                                     <figcaption>Recámara</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Departamento Mixcoac/Baño_completo_1.jpg" alt="Baño" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Departamento Mixcoac/Baño_completo_1.jpg" alt="Baño" class="d-block w-100">
                                     <figcaption>Baño</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Departamento Mixcoac/Área común, salón usos multiples.jpg" alt="Área común" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Departamento Mixcoac/Área común, salón usos multiples.jpg" alt="Área común" class="d-block w-100">
                                     <figcaption>Área común</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Departamento Mixcoac/Área de gimnasio con servicio de WC.jpeg" alt="Gimnasio" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Departamento Mixcoac/Área de gimnasio con servicio de WC.jpeg" alt="Gimnasio" class="d-block w-100">
                                     <figcaption>Gimnasio</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Departamento Mixcoac/Estacionamiento.jpeg" alt="Estacionamiento" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Departamento Mixcoac/Estacionamiento.jpeg" alt="Estacionamiento" class="d-block w-100">
                                     <figcaption>Estacionamiento</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Departamento Mixcoac/Roof Garden 4.jpg" alt="Roof Garden" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Departamento Mixcoac/Roof Garden 4.jpg" alt="Roof Garden" class="d-block w-100">
                                     <figcaption>Roof Garden</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Departamento Mixcoac/Recepción con vigilancia.jpg" alt="Recepción con vigilancia" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Departamento Mixcoac/Recepción con vigilancia.jpg" alt="Recepción con vigilancia" class="d-block w-100">
                                     <figcaption>Recepción con vigilancia</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Departamento Mixcoac/Elevador.jpg" alt="Elevador" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Departamento Mixcoac/Elevador.jpg" alt="Elevador" class="d-block w-100">
                                     <figcaption>Elevador</figcaption>
                                 </figure>
                             </div>
@@ -645,62 +513,6 @@
         </div>
     </aside>
 
-    <aside class="modal fade LightBoxGallery" id="DepartamentoEnPalmeralesAtizapán" tabindex="-1" aria-labelledby="depaPalmeralesLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-xl">
-            <div class="modal-content">
-                    <div id="depaPalmeralesControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <figure class="LB-gallery-item">
-                                    <img src="Propiedades/Departamento Palmerales Atizapán/principal.jpeg" alt="Entrada" class="d-block w-100">
-                                    <figcaption>Entrada</figcaption>
-                                </figure>
-                            </div>
-                            <div class="carousel-item">
-                                <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Departamento Palmerales Atizapán/Cocina_integral.jpeg" alt="Cocina" class="d-block w-100">
-                                    <figcaption>Cocina</figcaption>
-                                </figure>
-                            </div>
-                            <div class="carousel-item">
-                                <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Departamento Palmerales Atizapán/Pasillo.jpeg" alt="Pasillo" class="d-block w-100">
-                                    <figcaption>Pasillo</figcaption>
-                                </figure>
-                            </div>
-
-                            <div class="carousel-item">
-                                <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Departamento Palmerales Atizapán/Cuarto_1.jpeg" alt="Cuarto" class="d-block w-100">
-                                    <figcaption>Cuarto</figcaption>
-                                </figure>
-                            </div>
-                            <div class="carousel-item">
-                                <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Departamento Palmerales Atizapán/Closet_1.jpeg" alt="Closet" class="d-block w-100">
-                                    <figcaption>Closet</figcaption>
-                                </figure>
-                            </div>
-                            <div class="carousel-item">
-                                <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Departamento Palmerales Atizapán/Baño_regadera.jpeg" alt="Baño" class="d-block w-100">
-                                    <figcaption>Baño</figcaption>
-                                </figure>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#depaPalmeralesControls" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#depaPalmeralesControls" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-            </div>
-        </div>
-    </aside>
-
     <aside class="modal fade LightBoxGallery" id="CasaEnLasAlamedas" tabindex="-1" aria-labelledby="depaMixcoacLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-xl">
             <div class="modal-content">
@@ -708,50 +520,50 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <figure class="LB-gallery-item">
-                                    <img src="Propiedades/Casa Las Alamedas/principal.jpg" alt="Sala" class="d-block w-100">
+                                    <img src="PropiedadesIMG/Casa Las Alamedas/principal.jpg" alt="Sala" class="d-block w-100">
                                     <figcaption>Sala</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa Las Alamedas/Sala_2.jpg" alt="Sala" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa Las Alamedas/Sala_2.jpg" alt="Sala" class="d-block w-100">
                                     <figcaption>Sala</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa Las Alamedas/Comedor_1.jpg" alt="Comedor" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa Las Alamedas/Comedor_1.jpg" alt="Comedor" class="d-block w-100">
                                     <figcaption>Comedor</figcaption>
                                 </figure>
                             </div>
 
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa Las Alamedas/Patio_hamaca.jpg" alt="Patio" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa Las Alamedas/Patio_hamaca.jpg" alt="Patio" class="d-block w-100">
                                     <figcaption>Patio</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa Las Alamedas/Escaleras_arriba.jpg" alt="Escaleras" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa Las Alamedas/Escaleras_arriba.jpg" alt="Escaleras" class="d-block w-100">
                                     <figcaption>Escaleras</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa Las Alamedas/Dormitorio_1.jpg" alt="Dormitorio" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa Las Alamedas/Dormitorio_1.jpg" alt="Dormitorio" class="d-block w-100">
                                     <figcaption>Dormitorio</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa Las Alamedas/Dormitorio_2.jpg" alt="Dormitorio" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa Las Alamedas/Dormitorio_2.jpg" alt="Dormitorio" class="d-block w-100">
                                     <figcaption>Dormitorio</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa Las Alamedas/Baño_medio.jpg" alt="Baño" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa Las Alamedas/Baño_medio.jpg" alt="Baño" class="d-block w-100">
                                     <figcaption>Baño</figcaption>
                                 </figure>
                             </div>
@@ -776,80 +588,80 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <figure class="LB-gallery-item">
-                                    <img src="Propiedades/Casa en Valle Dorado/principal.jpeg" alt="Fachada" class="d-block w-100">
+                                    <img src="PropiedadesIMG/Casa en Valle Dorado/principal.jpeg" alt="Fachada" class="d-block w-100">
                                     <figcaption>Fachada</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa en Valle Dorado/Portón_entrada.jpeg" alt="Patio delantero" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa en Valle Dorado/Portón_entrada.jpeg" alt="Patio delantero" class="d-block w-100">
                                     <figcaption>Patio Delantero</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa en Valle Dorado/Entrada_1.jpeg" alt="Entrada" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa en Valle Dorado/Entrada_1.jpeg" alt="Entrada" class="d-block w-100">
                                     <figcaption>Entrada</figcaption>
                                 </figure>
                             </div>
                     
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa en Valle Dorado/Estancia_vista_completa.jpeg" alt="Estancia" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa en Valle Dorado/Estancia_vista_completa.jpeg" alt="Estancia" class="d-block w-100">
                                     <figcaption>Estancia</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa en Valle Dorado/Cocina_1.jpeg" alt="Cocina" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa en Valle Dorado/Cocina_1.jpeg" alt="Cocina" class="d-block w-100">
                                     <figcaption>Cocina</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa en Valle Dorado/Barra_1.jpeg" alt="Barra" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa en Valle Dorado/Barra_1.jpeg" alt="Barra" class="d-block w-100">
                                     <figcaption>Barra</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa en Valle Dorado/Barra_2.jpeg" alt="Barra" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa en Valle Dorado/Barra_2.jpeg" alt="Barra" class="d-block w-100">
                                     <figcaption>Barra</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa en Valle Dorado/Alacena_1.jpeg" alt="Alacena" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa en Valle Dorado/Alacena_1.jpeg" alt="Alacena" class="d-block w-100">
                                     <figcaption>Alacena</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa en Valle Dorado/Cuarto_1.jpeg" alt="Cuarto" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa en Valle Dorado/Cuarto_1.jpeg" alt="Cuarto" class="d-block w-100">
                                     <figcaption>Cuarto</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa en Valle Dorado/Cuarto_2.jpeg" alt="Cuarto" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa en Valle Dorado/Cuarto_2.jpeg" alt="Cuarto" class="d-block w-100">
                                     <figcaption>Cuarto</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa en Valle Dorado/Cuarto_3.jpeg" alt="Cuarto" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa en Valle Dorado/Cuarto_3.jpeg" alt="Cuarto" class="d-block w-100">
                                     <figcaption>Cuarto</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa en Valle Dorado/Closet_1.jpeg" alt="Closet" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa en Valle Dorado/Closet_1.jpeg" alt="Closet" class="d-block w-100">
                                     <figcaption>Closet</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa en Valle Dorado/Baño_completo_1.jpeg" alt="Baño" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa en Valle Dorado/Baño_completo_1.jpeg" alt="Baño" class="d-block w-100">
                                     <figcaption>Baño</figcaption>
                                 </figure>
                             </div>
@@ -874,62 +686,62 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <figure class="LB-gallery-item">
-                                    <img src="Propiedades/Casa en Valle Escondido/principal.jpg" alt="Fachada" class="d-block w-100">
+                                    <img src="PropiedadesIMG/Casa en Valle Escondido/principal.jpg" alt="Fachada" class="d-block w-100">
                                     <figcaption>Fachada</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa en Valle Escondido/Jardín_pasillo.jpg" alt="Pasillo" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa en Valle Escondido/Jardín_pasillo.jpg" alt="Pasillo" class="d-block w-100">
                                     <figcaption>Pasillo</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa en Valle Escondido/Patio_vista_casa.jpg" alt="Patio" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa en Valle Escondido/Patio_vista_casa.jpg" alt="Patio" class="d-block w-100">
                                     <figcaption>Patio</figcaption>
                                 </figure>
                             </div>
                     
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa en Valle Escondido/Comedor_y_alacena.jpg" alt="Comedor" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa en Valle Escondido/Comedor_y_alacena.jpg" alt="Comedor" class="d-block w-100">
                                     <figcaption>Estancia</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa en Valle Escondido/Comedor_mesa.jpg" alt="Comedor" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa en Valle Escondido/Comedor_mesa.jpg" alt="Comedor" class="d-block w-100">
                                     <figcaption>Comedor</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa en Valle Escondido/Cocina_integral.jpg" alt="Cocina" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa en Valle Escondido/Cocina_integral.jpg" alt="Cocina" class="d-block w-100">
                                     <figcaption>Cocina</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa en Valle Escondido/Cocina_isla_enmedio.jpg" alt="Cocina" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa en Valle Escondido/Cocina_isla_enmedio.jpg" alt="Cocina" class="d-block w-100">
                                     <figcaption>Cocina</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa en Valle Escondido/Escaleras_abajo.jpg" alt="Escaleras" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa en Valle Escondido/Escaleras_abajo.jpg" alt="Escaleras" class="d-block w-100">
                                     <figcaption>Escaleras</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa en Valle Escondido/Escaleras_arriba.jpg" alt="Escaleras" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa en Valle Escondido/Escaleras_arriba.jpg" alt="Escaleras" class="d-block w-100">
                                     <figcaption>Escaleras</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Casa en Valle Escondido/Baño_lavabo.jpg" alt="Baño" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Casa en Valle Escondido/Baño_lavabo.jpg" alt="Baño" class="d-block w-100">
                                     <figcaption>Baño</figcaption>
                                 </figure>
                             </div>
@@ -954,55 +766,55 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <figure class="LB-gallery-item">
-                                <img src="Propiedades/Santa Fé (Departamento)/Vista_fachada.jpeg" alt="Fachada" class="d-block w-100">
+                                <img src="PropiedadesIMG/Santa Fé (Departamento)/Vista_fachada.jpeg" alt="Fachada" class="d-block w-100">
                                 <figcaption>Fachada</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/Santa Fé (Departamento)/principal.jpeg" alt="Sala" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/Santa Fé (Departamento)/principal.jpeg" alt="Sala" class="d-block w-100">
                                 <figcaption>Sala</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/Santa Fé (Departamento)/Sala.jpeg" alt="Sala" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/Santa Fé (Departamento)/Sala.jpeg" alt="Sala" class="d-block w-100">
                                     <figcaption>Sala</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Santa Fé (Departamento)/Mesa.jpeg" alt="Mesa" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Santa Fé (Departamento)/Mesa.jpeg" alt="Mesa" class="d-block w-100">
                                     <figcaption>Mesa</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Santa Fé (Departamento)/Cocina_integral.jpeg" alt="Cocina" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Santa Fé (Departamento)/Cocina_integral.jpeg" alt="Cocina" class="d-block w-100">
                                     <figcaption>Cocina</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Santa Fé (Departamento)/Mesas.jpeg" alt="Patio" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Santa Fé (Departamento)/Mesas.jpeg" alt="Patio" class="d-block w-100">
                                     <figcaption>Patio</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Santa Fé (Departamento)/Jardín_trasero.jpeg" alt="Jardín" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Santa Fé (Departamento)/Jardín_trasero.jpeg" alt="Jardín" class="d-block w-100">
                                     <figcaption>Jardín</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Santa Fé (Departamento)/Piscina.jpeg" alt="Piscina" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Santa Fé (Departamento)/Piscina.jpeg" alt="Piscina" class="d-block w-100">
                                     <figcaption>Piscina</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Santa Fé (Departamento)/Baño_lavamanos.jpeg" alt="Baño" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Santa Fé (Departamento)/Baño_lavamanos.jpeg" alt="Baño" class="d-block w-100">
                                     <figcaption>Baño</figcaption>
                                 </figure>
                             </div>
@@ -1027,56 +839,56 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <figure class="LB-gallery-item">
-                                <img src="Propiedades/Berriozabal/principal.JPG" alt="Sala" class="d-block w-100">
+                                <img src="PropiedadesIMG/Berriozabal/principal.JPG" alt="Sala" class="d-block w-100">
                                 <figcaption>Sala</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/Berriozabal/Sala_2.JPG" alt="Sala" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/Berriozabal/Sala_2.JPG" alt="Sala" class="d-block w-100">
                                 <figcaption>Sala</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/Berriozabal/Comedor_1.JPG" alt="Comedor" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/Berriozabal/Comedor_1.JPG" alt="Comedor" class="d-block w-100">
                                     <figcaption>Comedor</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Berriozabal/Cocina_1.JPG" alt="Cocina" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Berriozabal/Cocina_1.JPG" alt="Cocina" class="d-block w-100">
                                     <figcaption>Cocina</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Berriozabal/Dormitorio_1.JPG" alt="Dormitorio" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Berriozabal/Dormitorio_1.JPG" alt="Dormitorio" class="d-block w-100">
                                     <figcaption>Dormitorio</figcaption>
                                 </figure>
                             </div>
                     
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Berriozabal/Dormitorio_2.JPG" alt="Dormitorio" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Berriozabal/Dormitorio_2.JPG" alt="Dormitorio" class="d-block w-100">
                                     <figcaption>Dormitorio</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Berriozabal/Closet_1.JPG" alt="Closet" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Berriozabal/Closet_1.JPG" alt="Closet" class="d-block w-100">
                                     <figcaption>Closet</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Berriozabal/Cuarto_de_lavado.JPG" alt="Cuarto de lavado" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Berriozabal/Cuarto_de_lavado.JPG" alt="Cuarto de lavado" class="d-block w-100">
                                     <figcaption>Cuarto de Lavado</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Berriozabal/Baño_1.JPG" alt="Baño" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Berriozabal/Baño_1.JPG" alt="Baño" class="d-block w-100">
                                     <figcaption>Baño</figcaption>
                                 </figure>
                             </div>
@@ -1101,37 +913,37 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <figure class="LB-gallery-item">
-                                <img src="Propiedades/Hacienda L C/principal.jpg" alt="Vialidades empedradas" class="d-block w-100">
+                                <img src="PropiedadesIMG/Hacienda L C/principal.jpg" alt="Vialidades empedradas" class="d-block w-100">
                                 <figcaption>Vialidades empedradas</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/Hacienda L C/Lago.jpg" alt="Lago" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/Hacienda L C/Lago.jpg" alt="Lago" class="d-block w-100">
                                 <figcaption>Lago</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/Hacienda L C/Camino_de_piedra.jpg" alt="Camino empedrado" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/Hacienda L C/Camino_de_piedra.jpg" alt="Camino empedrado" class="d-block w-100">
                                 <figcaption>Camino empedrado</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/Hacienda L C/Parque.jpg" alt="Bancas" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/Hacienda L C/Parque.jpg" alt="Bancas" class="d-block w-100">
                                 <figcaption>Bancas</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/Hacienda L C/Terreno_1.jpg" alt="Terreno" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/Hacienda L C/Terreno_1.jpg" alt="Terreno" class="d-block w-100">
                                 <figcaption>Terreno</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/Hacienda L C/Terreno_2.jpg" alt="Terreno" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/Hacienda L C/Terreno_2.jpg" alt="Terreno" class="d-block w-100">
                                 <figcaption>Terreno</figcaption>
                             </figure>
                         </div>
@@ -1156,31 +968,31 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <figure class="LB-gallery-item">
-                                <img src="Propiedades/iKANI/principal.jpg" alt="Sala" class="d-block w-100">
+                                <img src="PropiedadesIMG/iKANI/principal.jpg" alt="Sala" class="d-block w-100">
                                 <figcaption>Sala</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/iKANI/Sala.jpg" alt="Sala" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/iKANI/Sala.jpg" alt="Sala" class="d-block w-100">
                                 <figcaption>Sala</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/iKANI/Dormitorio_1.jpg" alt="Dormitorio" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/iKANI/Dormitorio_1.jpg" alt="Dormitorio" class="d-block w-100">
                                 <figcaption>Dormitorio</figcaption>
                             </figure>
                         </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/iKANI/Dormitorio_2.jpg" alt="Dormitorio" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/iKANI/Dormitorio_2.jpg" alt="Dormitorio" class="d-block w-100">
                                 <figcaption>Dormitorio</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/iKANI/Balcon.jpg" alt="Balcon" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/iKANI/Balcon.jpg" alt="Balcon" class="d-block w-100">
                                 <figcaption>Balcon</figcaption>
                             </figure>
                         </div>
@@ -1205,25 +1017,25 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <figure class="LB-gallery-item">
-                                <img src="Propiedades/Nus Kah/principal.jpeg" alt="Terreno" class="d-block w-100">
+                                <img src="PropiedadesIMG/Nus Kah/principal.jpeg" alt="Terreno" class="d-block w-100">
                                 <figcaption>Terreno</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/Nus Kah/Camastros.jpg" alt="Camastros" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/Nus Kah/Camastros.jpg" alt="Camastros" class="d-block w-100">
                                 <figcaption>Camastros</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/Nus Kah/Mesas.jpg" alt="Mesas" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/Nus Kah/Mesas.jpg" alt="Mesas" class="d-block w-100">
                                     <figcaption>Mesas</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
                                 <figure class="LB-gallery-item">
-                                    <img loading="lazy" src="Propiedades/Nus Kah/Render zona de hamacas Paal.jpeg" alt="Zona de hamacas" class="d-block w-100">
+                                    <img loading="lazy" src="PropiedadesIMG/Nus Kah/Render zona de hamacas Paal.jpeg" alt="Zona de hamacas" class="d-block w-100">
                                     <figcaption>Zona de Hamacas</figcaption>
                                 </figure>
                             </div>
@@ -1248,37 +1060,37 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <figure class="LB-gallery-item">
-                                <img src="Propiedades/Rinconada Valle Dorado/Principal.jpg" alt="Sala Cocina" class="d-block w-100">
+                                <img src="PropiedadesIMG/Rinconada Valle Dorado/Principal.jpg" alt="Sala Cocina" class="d-block w-100">
                                 <figcaption>Sala Cocina</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/Rinconada Valle Dorado/Entrada.jpg" alt="Entrada" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/Rinconada Valle Dorado/Entrada.jpg" alt="Entrada" class="d-block w-100">
                                 <figcaption>Entrada</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/Rinconada Valle Dorado/Cocina_integral_2.jpg" alt="Cocina" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/Rinconada Valle Dorado/Cocina_integral_2.jpg" alt="Cocina" class="d-block w-100">
                                 <figcaption>Cocina</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/Rinconada Valle Dorado/Cuarto_1.jpg" alt="Cuarto" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/Rinconada Valle Dorado/Cuarto_1.jpg" alt="Cuarto" class="d-block w-100">
                                 <figcaption>Cuarto</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/Rinconada Valle Dorado/Baño_completo.jpg" alt="Baño" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/Rinconada Valle Dorado/Baño_completo.jpg" alt="Baño" class="d-block w-100">
                                 <figcaption>Baño</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/Rinconada Valle Dorado/Balcon.jpg" alt="Balcon" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/Rinconada Valle Dorado/Balcon.jpg" alt="Balcon" class="d-block w-100">
                                 <figcaption>Balcon</figcaption>
                             </figure>
                         </div>
@@ -1303,43 +1115,43 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <figure class="LB-gallery-item">
-                                <img src="Propiedades/Vivace Casa/principal.png" alt="Comedor Sala" class="d-block w-100">
+                                <img src="PropiedadesIMG/Vivace Casa/principal.png" alt="Comedor Sala" class="d-block w-100">
                                 <figcaption>Comedor Sala</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/Vivace Casa/Fachada.png" alt="Fachada" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/Vivace Casa/Fachada.png" alt="Fachada" class="d-block w-100">
                                 <figcaption>Fachada</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/Vivace Casa/Planta_baja.png" alt="Comedor" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/Vivace Casa/Planta_baja.png" alt="Comedor" class="d-block w-100">
                                 <figcaption>Comedor</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/Vivace Casa/Piso_de_arriba.png" alt="Planta alta" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/Vivace Casa/Piso_de_arriba.png" alt="Planta alta" class="d-block w-100">
                                 <figcaption>Planta alta</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/Vivace Casa/Dormitorio.png" alt="Dormitorio" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/Vivace Casa/Dormitorio.png" alt="Dormitorio" class="d-block w-100">
                                 <figcaption>Dormitorio</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/Vivace Casa/Foto.png" alt="Cuarto de lavado" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/Vivace Casa/Foto.png" alt="Cuarto de lavado" class="d-block w-100">
                                 <figcaption>Cuarto de lavado</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/Vivace Casa/Baño_completo.png" alt="Baño" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/Vivace Casa/Baño_completo.png" alt="Baño" class="d-block w-100">
                                 <figcaption>Baño</figcaption>
                             </figure>
                         </div>
@@ -1364,13 +1176,13 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <figure class="LB-gallery-item">
-                                <img src="Propiedades/Vivace Depto/principal.jpg" alt="Fachada" class="d-block w-100">
+                                <img src="PropiedadesIMG/Vivace Depto/principal.jpg" alt="Fachada" class="d-block w-100">
                                 <figcaption>Fachada</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/Vivace Depto/Vista_posterior.jpg" alt="Vista posterior" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/Vivace Depto/Vista_posterior.jpg" alt="Vista posterior" class="d-block w-100">
                                 <figcaption>Vista posterior</figcaption>
                             </figure>
                         </div>
@@ -1395,31 +1207,31 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <figure class="LB-gallery-item">
-                                <img src="Propiedades/La Reserva/principal.jpg" alt="Entrada" class="d-block w-100">
+                                <img src="PropiedadesIMG/La Reserva/principal.jpg" alt="Entrada" class="d-block w-100">
                                 <figcaption>Entrada</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/La Reserva/Entrada.jpg" alt="Entrada" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/La Reserva/Entrada.jpg" alt="Entrada" class="d-block w-100">
                                 <figcaption>Entrada</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/La Reserva/Amplias_avenidas.jpg" alt="Amplias avenidas" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/La Reserva/Amplias_avenidas.jpg" alt="Amplias avenidas" class="d-block w-100">
                                 <figcaption>Amplias avenidas</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/La Reserva/Palapas.jpg" alt="Palapas" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/La Reserva/Palapas.jpg" alt="Palapas" class="d-block w-100">
                                 <figcaption>Palapas</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/La Reserva/Amplias_vialidades.jpg" alt="Amplias vialidades" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/La Reserva/Amplias_vialidades.jpg" alt="Amplias vialidades" class="d-block w-100">
                                 <figcaption>Amplias vialidades</figcaption>
                             </figure>
                         </div>
@@ -1444,19 +1256,19 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <figure class="LB-gallery-item">
-                                <img src="Propiedades/Terreno El faro de los cisnes/Principal.jpeg" alt="Entrada principal" class="d-block w-100">
+                                <img src="PropiedadesIMG/Terreno El faro de los cisnes/Principal.jpeg" alt="Entrada principal" class="d-block w-100">
                                 <figcaption>Entrada principal</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/Terreno El faro de los cisnes/Lago.jpeg" alt="Lago" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/Terreno El faro de los cisnes/Lago.jpeg" alt="Lago" class="d-block w-100">
                                 <figcaption>Lago</figcaption>
                             </figure>
                         </div>
                         <div class="carousel-item">
                             <figure class="LB-gallery-item">
-                                <img loading="lazy" src="Propiedades/Terreno El faro de los cisnes/Vista_areas_verdes.jpeg" alt="Areas verdes" class="d-block w-100">
+                                <img loading="lazy" src="PropiedadesIMG/Terreno El faro de los cisnes/Vista_areas_verdes.jpeg" alt="Areas verdes" class="d-block w-100">
                                 <figcaption>Areas verdes</figcaption>
                             </figure>
                         </div>
@@ -1517,114 +1329,6 @@
         </div>
     </aside>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="footer-col first">
-                        <h6>Acerca de Business House</h6>
-                        <p class="p-small">En Business House somos una agencia de marketing inmobiliario que ofrece servicios integrales para que puedas comprar o vender propiedades de manera eficaz</p>
-                    </div> <!-- end of footer-col -->
-                    <div class="footer-col second">
-                        <h6>Enlaces</h6>
-                        <ul class="list-unstyled li-space-lg p-small">
-                            <li><a href="terminos">Términos y condiciones</a></li>
-                            <li><a href="privacidad">Política de privacidad</a></li>
-                        </ul>
-                    </div> <!-- end of footer-col -->
-                    <div class="footer-col third text-center">
-                        <span class="fa-stack">
-                            <a target="_blank" href="https://www.facebook.com/BusinessHouseMkt">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-facebook-f fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a target="_blank" href="https://wa.link/bcbqn2">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-whatsapp fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a target="_blank" href="https://www.instagram.com/businesshousem/">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-instagram fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a target="_blank" href="https://www.linkedin.com/company/business-house-mkt">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-linkedin fa-stack-1x"></i>
-                            </a>
-                        </span>
-                    </div> <!-- end of footer-col -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </footer> <!-- end of footer -->  
-    <!-- end of footer -->
-
-
-    <!-- Copyright -->
-    <div class="copyright">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p class="p-small">© 2021 Business House</p>
-                </div> <!-- end of col -->
-            </div> <!-- enf of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of copyright --> 
-    <!-- end of copyright -->
-    
-
-    <!-- Back To Top Button -->
-    <button onclick="topFunction()" id="myBtn">
-        <img src="images/up-arrow.png" alt="alternative">
-    </button>
-    <!-- end of back to top button -->
-
-    <!-- Scripts -->
-    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-    <script src="js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
-    <script src="js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
-    <script src="js/scripts.js"></script> <!-- Custom scripts -->
-
-    <!-- Messenger Plugin de chat Code -->
-    <div id="fb-root"></div>
-
-    <!-- Your Plugin de chat code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
-
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "102453522268675");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
-
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v12.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
-    <!-- end of messenger-plugin -->
-
-    
-    	
-</body>
-</html>
+<?php 
+	include_once('Templates/footer.php');
+?>	
