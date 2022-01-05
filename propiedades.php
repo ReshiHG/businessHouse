@@ -1,4 +1,5 @@
 <?php 
+    $siteTitle = "Business House | Propiedades";
 	include_once('Templates/header.php');
 ?>	
 

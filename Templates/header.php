@@ -21,14 +21,14 @@
     <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
 	<meta property="og:site_name" content="Business House" /> <!-- website name -->
 	<meta property="og:site" content="" /> <!-- website link -->
-	<meta property="og:title" content="Business House | Inicio"/> <!-- title shown in the actual shared post -->
+	<meta property="og:title" content="<?php echo $siteTitle; ?>"/> <!-- title shown in the actual shared post -->
 	<meta property="og:description" content="En Business House somos una agencia de marketing inmobiliario que ofrece servicios integrales para que puedas comprar o vender propiedades de manera eficaz" /> <!-- description shown in the actual shared post -->
 	<meta property="og:image" content="images/BH_logo_normal.jpg" /> <!-- image link, make sure it's jpg -->
 	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
 	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
 
     <!-- Webpage Title -->
-    <title>Business House</title>
+    <?php echo "<title>$siteTitle</title>"; ?>
     
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
@@ -93,7 +93,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contacto">Contacto</a>
-                    </li>
+                    </li>                    
                 </ul>
                 <div class="nav-item social-icons">
                     <p id="phone"><a href="tel:5628522201">56 2852 2201</a></p>

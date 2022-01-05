@@ -1,5 +1,6 @@
 <?php 
-		include_once('Templates/header.php');
+    $siteTitle = "Business House | Aviso de Privacidad";
+	include_once('Templates/header.php');
 ?>	
 
 

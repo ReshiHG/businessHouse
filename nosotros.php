@@ -1,6 +1,7 @@
 <?php 
+    $siteTitle = "Business House | Nosotros";
 	include_once('Templates/header.php');
-?>	
+?>
     
     <!-- Header -->
     <header class="ex-header">

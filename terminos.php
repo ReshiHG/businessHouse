@@ -1,4 +1,5 @@
 <?php 
+    $siteTitle = "Business House | Términos y condiciones";
 	include_once('Templates/header.php');
 ?>	
 

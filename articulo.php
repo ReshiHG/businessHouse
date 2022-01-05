@@ -1,6 +1,7 @@
 <?php 
-		include_once('Templates/header.php');
-?>	
+    $siteTitle = "Business House | Articulo";
+	include_once('Templates/header.php');
+?>
 
     <!-- Basic -->
     <div class="ex-basic-1 pt-5 pb-5">

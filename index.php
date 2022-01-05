@@ -1,6 +1,7 @@
 <?php 
-		include_once('Templates/header.php');
-?>	
+    $siteTitle = "Business House | Inicio";
+	include_once('Templates/header.php');
+?>
 
 <!-- Header -->
 <header id="header" class="header">
