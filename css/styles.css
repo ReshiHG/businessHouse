@@ -443,6 +443,7 @@ a:hover {
 	text-align: center;
 }
 
+
 /* Dark version */
 .top-nav-no-collapse .nav-item .nav-link {
 	padding-top: 0.625rem;
@@ -458,6 +459,10 @@ a:hover {
 	color: var(--heading-text);
 }
 
+.top-nav-no-collapse .nav-item #phone a{
+	color: var(--backgroud);
+}
+
 /* Light version */
 .nav-item .nav-link {
 	padding-top: 0.625rem;
@@ -467,10 +472,21 @@ a:hover {
 	transition: all 0.2s ease;
 }
 
+
 .nav-item.dropdown.show .nav-link,
 .nav-item .nav-link:hover,
 .nav-item .nav-link.active {
 	color: var(--heading-text);
+}
+
+.nav-item #phone{
+	margin-bottom: 5px;
+}
+
+.nav-item #phone a{
+	color: var(--heading-text);
+	text-decoration: none;
+	font-size: 1.5rem;
 }
 
 /* Dropdown Menu */
@@ -1719,6 +1735,7 @@ a:hover {
 		margin-right: 0;
 		margin-left: 0.25rem;
 	}
+
 	/* end of navigation */
 
 
@@ -1746,7 +1763,7 @@ a:hover {
 		width: 270px;
 		vertical-align: top;
 	}
-	
+	#phone
 	/* .cards-1 .card:nth-of-type(3n+2) {
 		margin-right: 1.75rem;
 		margin-left: 1.75rem;
