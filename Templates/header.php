@@ -96,6 +96,7 @@
                     </li>
                 </ul>
                 <div class="nav-item social-icons">
+                    <p id="phone"><a href="tel:5628522201">56 2852 2201</a></p>
                     <span class="fa-stack">
                         <a target="_blank" href="https://www.facebook.com/BusinessHouseMkt">
                             <i class="fas fa-circle fa-stack-2x"></i>
