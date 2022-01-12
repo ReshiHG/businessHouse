@@ -16,65 +16,7 @@
     </header> <!-- end of ex-header -->
     <!-- end of header -->   
 
-
-    <!-- State -->
-    <!-- <section id="state-cards">
-        <div class="container">
-            <div class="cards-container">
-                <div class="card col-11 col-md-5 col-lg-3 casa">
-                    <img src="PropiedadesIMG/Prop2/image2.jpg" class="card-img-top" alt="Casa 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Casa 1</h5>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Dirección 342</li>
-                            <li class="list-group-item">$$$$$$$</li>
-                        </ul>
-                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, eligendi blanditiis necessitatibus animi excepturi cupiditate.</p>
-                        <a href="#" class="btn-solid-reg">Contactar</a>
-                    </div>
-                </div>
-                <div class="card col-11 col-md-5 col-lg-3 departamento">
-                    <img src="PropiedadesIMG/Prop2/image2.jpg" class="card-img-top" alt="Casa 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Depa 1</h5>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Dirección 342</li>
-                            <li class="list-group-item">$$$$$$$</li>
-                        </ul>
-                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, eligendi blanditiis necessitatibus animi excepturi cupiditate.</p>
-                        <a href="#" class="btn-solid-reg">Contactar</a>
-                    </div>
-                </div>
-                <div class="card col-11 col-md-5 col-lg-3 terreno">
-                    <img src="PropiedadesIMG/Prop2/image2.jpg" class="card-img-top" alt="Casa 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Terreno 1</h5>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Dirección 342</li>
-                            <li class="list-group-item">$$$$$$$</li>
-                        </ul>
-                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, eligendi blanditiis necessitatibus animi excepturi cupiditate.</p>
-                        <a href="#" class="btn-solid-reg">Contactar</a>
-                    </div>
-                </div>
-                <div class="card col-11 col-md-5 col-lg-3">
-                    <img src="PropiedadesIMG/Prop2/image2.jpg" class="card-img-top" alt="Casa 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Casa 1</h5>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Dirección 342</li>
-                            <li class="list-group-item">$$$$$$$</li>
-                        </ul>
-                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, eligendi blanditiis necessitatibus animi excepturi cupiditate.</p>
-                        <a href="#" class="btn-solid-reg">Contactar</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- State -->
-
-        <!-- Projects -->
+    <!-- Projects -->
 	<section id="projects" class="filter bg-gray">
 		<div class="container">
             <div class="row">
@@ -96,14 +38,12 @@
                     </div> <!-- end of button group -->
                     <div class="grid">
                         <div class="element-item casa">
-                            <!-- <a href="articulo.html"> -->
-                                <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#CasaRemodeladaEnSateliteNaucalpan" src="PropiedadesIMG/Casa remodelada Satelite Naucalpan (Acuario)/card-img.jpg" alt="Foto Casa remodelada en Satélite Naucalpan">
-                                <h4>Casa remodelada en Satélite Naucalpan</h4>
-                                <p class="p-small direccion-card">Cerrada de Acuario 25 Jardines de Satélite, Naucalpan.</p>
-                                <p class="precio-card">$8,500,000</p>
-                                <p class="info-card">Hermosa casa completamente remodelada, con acabados modernos, fina madera en closet y puertas, en fraccionamiento con seguridad, calle cerrada con excelente ubicación muy cerca del Colegio Cristóbal Colón, Plaza Satélite y La Cuspide.</p>
-                                <button class="btn-solid-reg propiedadBtn" data-propiedad="Casa remodelada en Satélite Naucalpan">Contactar</button>
-                            <!-- </a> -->
+                            <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#CasaRemodeladaEnSateliteNaucalpan" src="PropiedadesIMG/Casa remodelada Satelite Naucalpan (Acuario)/card-img.jpg" alt="Foto Casa remodelada en Satélite Naucalpan">
+                            <h4>Casa remodelada en Satélite Naucalpan</h4>
+                            <p class="p-small direccion-card">Cerrada de Acuario 25 Jardines de Satélite, Naucalpan.</p>
+                            <p class="precio-card">$8,500,000</p>
+                            <p class="info-card">Hermosa casa completamente remodelada, con acabados modernos, fina madera en closet y puertas, en fraccionamiento con seguridad, calle cerrada con excelente ubicación muy cerca del Colegio Cristóbal Colón, Plaza Satélite y La Cuspide.</p>
+                            <button class="btn-solid-reg propiedadBtn" data-propiedad="Casa remodelada en Satélite Naucalpan">Contactar</button>
                         </div>
                         <div class="element-item departamento">
                             <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#DepartamentoRemodeladoEnCalacoaya" src="PropiedadesIMG/Departamento remodelado Calacoaya (Ale)/card-img.jpg" alt="Foto Departamento remodelado en Calacoaya">
